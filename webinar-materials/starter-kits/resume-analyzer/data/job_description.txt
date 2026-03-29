@@ -1,0 +1,3 @@
+Senior Data Engineer
+
+We are looking for a Data Engineer with experience in Python, SQL, ETL pipelines, distributed systems, Airflow, and cloud platforms such as AWS or GCP. Experience with machine learning workflows is a plus.
