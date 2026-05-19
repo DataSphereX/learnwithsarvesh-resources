@@ -1,0 +1,1001 @@
+,order_id,date,region,product,sales_rep,quantity,components,component_count,has_quantity_trend,trend_type,route_target,unit_price,revenue,customer_type
+0,1849,2023-01-01,West,Headphones,David,2,speaker,1,False,none,simple_component_agent,1958.7968648829897,3917.5937297659793,Returning
+1,1678,2023-01-01,East,Mobile,Eva,2,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27937.901824253164,55875.80364850633,New
+2,1649,2023-01-01,East,Monitor,Bob,4,"panel, stand, cable",3,False,none,general_component_agent,15713.852842192779,62855.411368771114,Returning
+3,1756,2023-01-01,West,Laptop,Charlie,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,68046.64307198176,136093.28614396352,Returning
+4,1992,2023-01-01,South,Mobile,Charlie,1,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31027.624951374797,31027.624951374797,New
+5,1447,2023-01-01,West,Laptop,Alice,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,66789.01518774472,601101.1366897025,New
+6,1207,2023-01-02,South,Laptop,Bob,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,64137.21488729342,384823.28932376055,Returning
+7,1264,2023-01-02,East,Tablet,Bob,9,"display, battery",2,False,none,simple_component_agent,21970.327181951056,158186.35571004762,Returning
+8,1064,2023-01-02,East,Headphones,Bob,8,speaker,1,False,none,simple_component_agent,1862.4806031722399,14899.844825377919,New
+9,1896,2023-01-03,West,Tablet,Frank,10,"display, battery",2,False,none,simple_component_agent,21953.683975853924,175629.47180683143,Returning
+10,1949,2023-01-04,West,Headphones,Bob,1,speaker,1,False,none,simple_component_agent,2190.9119730265793,2190.9119730265793,Returning
+11,1497,2023-01-04,South,Laptop,Eva,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,74113.45345471257,296453.81381885026,Returning
+12,1326,2023-01-04,South,Monitor,Charlie,7,"panel, stand, cable",3,False,none,general_component_agent,15478.268886245993,108347.88220372195,Returning
+13,1969,2023-01-04,North,Laptop,Charlie,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,71089.29870351519,142178.59740703038,New
+14,1614,2023-01-05,West,Mobile,Bob,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32196.60927226701,96589.82781680103,New
+15,1416,2023-01-05,East,Monitor,David,8,"panel, stand, cable",3,False,none,general_component_agent,14368.318564858464,114946.54851886771,New
+16,1721,2023-01-05,West,Tablet,Frank,8,"display, battery",2,False,none,simple_component_agent,19870.72484993951,127172.63903961287,New
+17,1129,2023-01-05,South,Headphones,Frank,7,speaker,1,False,none,simple_component_agent,2047.755987746601,14334.291914226207,New
+18,1843,2023-01-05,North,Monitor,Frank,4,"panel, stand, cable",3,False,none,general_component_agent,14733.571427608475,58934.2857104339,New
+19,1965,2023-01-06,West,Mobile,Alice,2,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29564.91872454161,59129.83744908322,Returning
+20,1742,2023-01-06,South,Mobile,Eva,2,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28981.708005012508,57963.416010025016,New
+21,1335,2023-01-06,North,Laptop,Alice,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,70899.24543358352,425395.47260150115,Returning
+22,1935,2023-01-06,North,Headphones,Alice,5,speaker,1,False,none,simple_component_agent,2140.2298112060466,10701.149056030234,Returning
+23,1895,2023-01-07,West,Tablet,David,8,"display, battery",2,False,none,simple_component_agent,18806.113512025255,120359.12647696164,Returning
+24,1606,2023-01-07,East,Tablet,Eva,8,"display, battery",2,False,none,simple_component_agent,21737.732155013768,139121.48579208812,New
+25,1829,2023-01-08,North,Laptop,Eva,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,72647.22715247521,435883.3629148513,Returning
+26,1688,2023-01-08,North,Mobile,Frank,2,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31939.639276080186,63879.27855216037,New
+27,1876,2023-01-08,North,Tablet,Eva,10,"display, battery",2,False,none,simple_component_agent,20224.762770520047,161798.10216416037,Returning
+28,1098,2023-01-09,West,Headphones,Eva,5,speaker,1,False,none,simple_component_agent,2111.8066805696258,10559.033402848128,Returning
+29,1270,2023-01-09,West,Monitor,David,3,"panel, stand, cable",3,False,none,general_component_agent,13548.601192018401,40645.8035760552,New
+30,1602,2023-01-09,West,Laptop,David,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,74457.3259469135,670115.9335222214,Returning
+31,1715,2023-01-10,North,Mobile,Charlie,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27240.8331545122,81722.4994635366,Returning
+32,1485,2023-01-10,North,Laptop,Charlie,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,75458.78726908007,452752.72361448046,Returning
+33,1852,2023-01-12,East,Monitor,Bob,6,"panel, stand, cable",3,False,none,general_component_agent,16475.88824171593,98855.32945029557,Returning
+34,1682,2023-01-12,West,Tablet,Eva,8,"display, battery",2,False,none,simple_component_agent,19176.269848707114,122728.12703172554,New
+35,1519,2023-01-12,East,Mobile,Alice,2,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28261.911337714766,56523.82267542953,Returning
+36,1917,2023-01-13,South,Monitor,Charlie,5,"panel, stand, cable",3,False,none,general_component_agent,15796.090091574124,78980.45045787063,Returning
+37,1379,2023-01-13,West,Mobile,Eva,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28518.15804552152,114072.63218208608,New
+38,1152,2023-01-13,North,Tablet,Eva,7,"display, battery",2,False,none,simple_component_agent,21462.249532688817,120188.59738305738,Returning
+39,1555,2023-01-13,East,Monitor,Frank,2,"panel, stand, cable",3,False,none,general_component_agent,13808.52777647243,27617.05555294486,Returning
+40,1051,2023-01-14,West,Tablet,Charlie,8,"display, battery",2,False,none,simple_component_agent,18503.820785517433,118424.45302731158,Returning
+41,1676,2023-01-14,East,Headphones,David,1,speaker,1,False,none,simple_component_agent,2191.6606220402464,2191.6606220402464,Returning
+42,1886,2023-01-14,West,Mobile,Eva,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31043.033389620028,93129.10016886008,New
+43,1892,2023-01-14,West,Laptop,Frank,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,74856.42114200535,224569.26342601603,Returning
+44,1135,2023-01-15,East,Headphones,Charlie,9,speaker,1,False,none,simple_component_agent,1929.7317509406073,17367.585758465466,New
+45,1093,2023-01-15,East,Laptop,Alice,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,72470.77249328847,217412.31747986542,Returning
+46,1904,2023-01-15,North,Tablet,David,9,"display, battery",2,False,none,simple_component_agent,20376.96730923439,146714.16462648762,Returning
+47,1498,2023-01-16,East,Laptop,Eva,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,71444.10168172127,71444.10168172127,Returning
+48,1330,2023-01-17,South,Headphones,Eva,6,speaker,1,False,none,simple_component_agent,2073.012983815089,12438.077902890533,New
+49,1353,2023-01-18,South,Monitor,Charlie,4,"panel, stand, cable",3,False,none,general_component_agent,15226.077519387298,60904.31007754919,Returning
+50,1567,2023-01-19,North,Mobile,Bob,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29574.374215816,88723.12264744799,Returning
+51,1637,2023-01-19,South,Headphones,Frank,9,speaker,1,False,none,simple_component_agent,1910.3690777522188,17193.32169976997,New
+52,1384,2023-01-20,South,Mobile,David,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31611.487985479213,94834.46395643764,New
+53,1672,2023-01-20,East,Headphones,Eva,6,speaker,1,False,none,simple_component_agent,1890.5089720012747,11343.053832007648,New
+54,1988,2023-01-20,West,Monitor,Eva,1,"panel, stand, cable",3,False,none,general_component_agent,15577.062918463242,15577.062918463242,New
+55,1045,2023-01-21,East,Tablet,Alice,10,"display, battery",2,False,none,simple_component_agent,18933.331290597307,151466.65032477846,Returning
+56,1007,2023-01-21,South,Tablet,David,8,"display, battery",2,False,none,simple_component_agent,20501.320679817814,131208.452350834,Returning
+57,1847,2023-01-22,North,Mobile,Charlie,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31482.469602774177,94447.40880832254,Returning
+58,1308,2023-01-22,South,Monitor,Charlie,8,"panel, stand, cable",3,False,none,general_component_agent,14156.141666719619,113249.13333375695,Returning
+59,1026,2023-01-22,South,Tablet,David,8,"display, battery",2,False,none,simple_component_agent,18239.773203445235,116734.54850204951,New
+60,1748,2023-01-23,North,Tablet,David,10,"display, battery",2,False,none,simple_component_agent,18523.894971976697,148191.15977581358,Returning
+61,1483,2023-01-23,North,Tablet,Alice,7,"display, battery",2,False,none,simple_component_agent,20423.987869084103,114374.33206687098,Returning
+62,1581,2023-01-25,North,Tablet,Charlie,8,"display, battery",2,False,none,simple_component_agent,21397.785624902946,136945.82799937887,Returning
+63,1919,2023-01-25,East,Monitor,David,5,"panel, stand, cable",3,False,none,general_component_agent,13634.990463706274,68174.95231853137,Returning
+64,1915,2023-01-25,East,Laptop,Bob,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,73278.11762658304,439668.7057594983,New
+65,1978,2023-01-26,West,Tablet,Frank,9,"display, battery",2,False,none,simple_component_agent,19365.27458380021,139429.9770033615,Returning
+66,1873,2023-01-26,North,Laptop,Frank,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,69699.39717887332,348496.9858943666,Returning
+67,1376,2023-01-26,West,Laptop,Frank,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,76004.03369783792,684036.3032805413,Returning
+68,1317,2023-01-27,West,Mobile,Bob,1,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28991.829028415075,28991.829028415075,New
+69,1110,2023-01-28,West,Monitor,Bob,7,"panel, stand, cable",3,False,none,general_component_agent,14896.01080181846,104272.07561272923,New
+70,1165,2023-01-28,East,Tablet,Charlie,9,"display, battery",2,False,none,simple_component_agent,18054.729659042725,129994.05354510763,Returning
+71,1907,2023-01-28,South,Monitor,Frank,4,"panel, stand, cable",3,False,none,general_component_agent,13744.796160014515,54979.18464005806,Returning
+72,1697,2023-01-28,South,Monitor,Bob,9,"panel, stand, cable",3,False,none,general_component_agent,14275.774773404353,128481.97296063918,Returning
+73,1887,2023-01-28,East,Headphones,Charlie,5,speaker,1,False,none,simple_component_agent,1811.1408963284298,9055.70448164215,New
+74,1150,2023-01-29,West,Tablet,Alice,8,"display, battery",2,False,none,simple_component_agent,20525.501304193003,131363.20834683522,Returning
+75,1615,2023-01-29,South,Laptop,David,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,68969.57699522271,482787.038966559,Returning
+76,1802,2023-01-30,South,Mobile,Frank,2,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30288.871216368138,60577.742432736275,Returning
+77,1960,2023-01-31,North,Monitor,Bob,3,"panel, stand, cable",3,False,none,general_component_agent,14023.941557688988,42071.82467306696,New
+78,1115,2023-02-02,West,Mobile,Eva,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28775.5921766197,86326.7765298591,Returning
+79,1508,2023-02-02,North,Laptop,Charlie,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,72293.54264793816,578348.3411835053,Returning
+80,1306,2023-02-02,West,Laptop,Eva,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,76514.23813082562,76514.23813082562,New
+81,1815,2023-02-03,South,Mobile,Alice,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27302.500641613256,81907.50192483977,New
+82,1855,2023-02-03,West,Tablet,Charlie,9,"display, battery",2,False,none,simple_component_agent,21561.537283421065,155243.06844063167,Returning
+83,1762,2023-02-03,North,Monitor,Bob,8,"panel, stand, cable",3,False,none,general_component_agent,15230.643603933626,121845.148831469,New
+84,1928,2023-02-03,East,Tablet,Frank,7,"display, battery",2,False,none,simple_component_agent,20255.678267022493,56715.89914766299,Returning
+85,1124,2023-02-04,North,Tablet,David,8,"display, battery",2,False,none,simple_component_agent,20001.114140831043,128007.13050131868,New
+86,1524,2023-02-04,East,Monitor,David,4,"panel, stand, cable",3,False,none,general_component_agent,13708.182257712551,54832.729030850205,New
+87,1059,2023-02-04,South,Headphones,David,8,speaker,1,False,none,simple_component_agent,1835.9507406944645,14687.605925555716,Returning
+88,1327,2023-02-04,West,Monitor,Alice,3,"panel, stand, cable",3,False,none,general_component_agent,15302.736016977258,45908.208050931775,Returning
+89,1709,2023-02-04,East,Laptop,Eva,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,67773.42000009782,609960.7800008804,Returning
+90,1963,2023-02-05,East,Monitor,David,2,"panel, stand, cable",3,False,none,general_component_agent,16251.804199733042,32503.608399466084,New
+91,1382,2023-02-05,West,Monitor,Eva,2,"panel, stand, cable",3,False,none,general_component_agent,14719.771612078417,29439.543224156834,Returning
+92,1151,2023-02-05,North,Mobile,David,2,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27859.688752215847,55719.37750443169,Returning
+93,1546,2023-02-05,West,Laptop,Alice,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,73006.06366902852,292024.25467611407,Returning
+94,1338,2023-02-06,East,Laptop,David,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,67106.94790017414,536855.5832013931,Returning
+95,1552,2023-02-06,East,Monitor,Eva,9,"panel, stand, cable",3,False,none,general_component_agent,15076.410922067682,135687.69829860915,Returning
+96,1268,2023-02-06,North,Mobile,Frank,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31186.996713031018,93560.99013909305,New
+97,1311,2023-02-07,North,Mobile,Frank,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32401.584667212428,129606.33866884971,Returning
+98,1996,2023-02-07,West,Headphones,David,8,speaker,1,False,none,simple_component_agent,2116.8764779206704,16935.011823365363,Returning
+99,1250,2023-02-08,South,Laptop,Bob,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,72469.05495021814,289876.21980087255,New
+100,1909,2023-02-08,East,Mobile,Eva,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31077.79909437086,124311.19637748344,Returning
+101,1477,2023-02-08,North,Laptop,Alice,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,76242.94501644923,457457.6700986954,Returning
+102,1373,2023-02-08,North,Tablet,David,9,"display, battery",2,False,none,simple_component_agent,19183.296389986142,138119.73400790023,Returning
+103,1638,2023-02-08,East,Monitor,Charlie,1,"panel, stand, cable",3,False,none,general_component_agent,13503.336282588562,13503.336282588562,Returning
+104,1766,2023-02-08,East,Monitor,Alice,7,"panel, stand, cable",3,False,none,general_component_agent,14315.863678194597,100211.04574736218,Returning
+105,1586,2023-02-08,South,Mobile,Bob,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28307.348277760466,42461.0224166407,New
+106,1961,2023-02-09,West,Laptop,Eva,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,72265.68419159597,650391.1577243637,New
+107,1091,2023-02-10,North,Tablet,Bob,8,"display, battery",2,False,none,simple_component_agent,20534.846399062117,131423.01695399755,New
+108,1109,2023-02-10,West,Laptop,David,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,71308.45935786613,356542.29678933066,Returning
+109,1700,2023-02-10,East,Monitor,Frank,8,"panel, stand, cable",3,False,none,general_component_agent,13548.730329628363,108389.8426370269,New
+110,1137,2023-02-11,North,Mobile,David,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31372.668326703886,125490.67330681554,Returning
+111,1589,2023-02-11,East,Headphones,David,4,speaker,1,False,none,simple_component_agent,1929.4121649941967,7717.648659976787,Returning
+112,1933,2023-02-11,South,Mobile,Eva,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30990.33593403979,92971.00780211938,Returning
+113,1821,2023-02-12,West,Headphones,Alice,1,speaker,1,False,none,simple_component_agent,2022.6313714008613,2022.6313714008613,New
+114,1516,2023-02-12,South,Monitor,Bob,4,"panel, stand, cable",3,False,none,general_component_agent,14528.192776283722,58112.77110513489,New
+115,1167,2023-02-13,North,Mobile,Bob,2,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27807.457602624647,55614.915205249294,New
+116,1657,2023-02-13,South,Monitor,Bob,8,"panel, stand, cable",3,False,none,general_component_agent,13783.256692981444,110266.05354385155,Returning
+117,1517,2023-02-13,West,Laptop,David,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,74641.25666357114,447847.53998142685,New
+118,1071,2023-02-13,North,Headphones,Alice,9,speaker,1,False,none,simple_component_agent,2167.3590168326236,19506.231151493612,Returning
+119,1161,2023-02-14,East,Tablet,David,8,"display, battery",2,False,none,simple_component_agent,20599.1521870572,131834.5739971661,New
+120,1708,2023-02-15,East,Tablet,David,9,"display, battery",2,False,none,simple_component_agent,18413.736459441934,132578.90250798195,New
+121,1854,2023-02-15,South,Laptop,Eva,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,68628.38103643537,68628.38103643537,Returning
+122,1334,2023-02-15,West,Laptop,David,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,73205.1488014722,146410.2976029444,Returning
+123,1862,2023-02-16,West,Mobile,David,2,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31678.92530406041,63357.85060812082,New
+124,1471,2023-02-16,East,Mobile,Charlie,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27709.311733746534,110837.24693498613,New
+125,1422,2023-02-16,East,Mobile,Frank,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27000.184313072295,81000.55293921688,New
+126,1991,2023-02-16,South,Headphones,Alice,9,speaker,1,False,none,simple_component_agent,2084.854818352242,18763.69336517018,Returning
+127,1673,2023-02-16,West,Headphones,Eva,8,speaker,1,False,none,simple_component_agent,1942.6384703944823,15541.107763155858,Returning
+128,1453,2023-02-17,South,Monitor,Alice,6,"panel, stand, cable",3,False,none,general_component_agent,14263.44399485478,85580.66396912868,New
+129,1870,2023-02-17,West,Mobile,Bob,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27077.384818737155,81232.15445621146,New
+130,1116,2023-02-17,South,Mobile,Frank,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30241.796440569004,90725.38932170701,Returning
+131,1329,2023-02-18,South,Mobile,David,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32106.904412555894,128427.61765022358,New
+132,1030,2023-02-18,East,Monitor,Alice,2,"panel, stand, cable",3,False,none,general_component_agent,16372.894938817764,32745.78987763553,Returning
+133,1062,2023-02-19,North,Headphones,Alice,5,speaker,1,False,none,simple_component_agent,2026.2979802453156,10131.489901226578,Returning
+134,1395,2023-02-20,West,Tablet,Alice,8,"display, battery",2,False,none,simple_component_agent,20057.845310959576,128370.20999014129,Returning
+135,1805,2023-02-20,North,Headphones,Frank,6,speaker,1,False,none,simple_component_agent,1834.0225541956966,11004.135325174178,Returning
+136,1841,2023-02-20,North,Mobile,Frank,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30293.2368092556,121172.9472370224,Returning
+137,1314,2023-02-20,North,Mobile,Alice,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29279.874473792366,146399.37236896183,Returning
+138,1037,2023-02-20,South,Monitor,Bob,2,"panel, stand, cable",3,False,none,general_component_agent,15321.40584265073,30642.81168530146,New
+139,1757,2023-02-20,West,Monitor,Bob,3,"panel, stand, cable",3,False,none,general_component_agent,14666.179043629641,43998.53713088892,Returning
+140,1198,2023-02-21,North,Tablet,Charlie,8,"display, battery",2,False,none,simple_component_agent,18961.196493801468,121351.6575603294,Returning
+141,1143,2023-02-21,West,Tablet,Eva,8,"display, battery",2,False,none,simple_component_agent,18379.861100913506,117631.11104584644,New
+142,1576,2023-02-21,North,Mobile,Eva,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28889.510667533377,86668.53200260013,Returning
+143,1749,2023-02-22,South,Laptop,Alice,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,64353.027680028536,64353.027680028536,New
+144,1413,2023-02-22,East,Monitor,Charlie,2,"panel, stand, cable",3,False,none,general_component_agent,14030.690852471953,28061.381704943906,Returning
+145,1216,2023-02-22,East,Monitor,Alice,6,"panel, stand, cable",3,False,none,general_component_agent,16462.00847573864,98772.05085443184,New
+146,1582,2023-02-22,West,Tablet,Eva,8,"display, battery",2,False,none,simple_component_agent,19776.414227626476,126569.05105680945,New
+147,1817,2023-02-22,South,Mobile,Charlie,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30191.230599030103,90573.69179709032,Returning
+148,1086,2023-02-22,East,Monitor,Bob,3,"panel, stand, cable",3,False,none,general_component_agent,16120.855586211648,48362.566758634945,Returning
+149,1055,2023-02-22,North,Monitor,Charlie,8,"panel, stand, cable",3,False,none,general_component_agent,16486.706701472063,131893.6536117765,Returning
+150,1410,2023-02-23,South,Mobile,David,2,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30496.28669606809,60992.57339213618,Returning
+151,1210,2023-02-23,East,Headphones,Frank,5,speaker,1,False,none,simple_component_agent,2124.989528417669,10624.947642088346,New
+152,1774,2023-02-23,South,Tablet,Charlie,9,"display, battery",2,False,none,simple_component_agent,19307.764097346702,139015.90150089626,New
+153,1679,2023-02-23,East,Monitor,Frank,2,"panel, stand, cable",3,False,none,general_component_agent,14417.231872341874,28834.463744683748,New
+154,1356,2023-02-23,West,Laptop,Frank,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,68637.85209392385,205913.55628177157,Returning
+155,1065,2023-02-23,East,Mobile,Eva,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31035.043576041895,124140.17430416758,New
+156,1278,2023-02-23,East,Tablet,Eva,8,"display, battery",2,False,none,simple_component_agent,20728.766757020396,132664.10724493055,Returning
+157,1039,2023-02-24,West,Tablet,David,8,"display, battery",2,False,none,simple_component_agent,19260.957738597805,123270.12952702596,Returning
+158,1884,2023-02-25,West,Mobile,Eva,2,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27799.25954481977,55598.51908963954,New
+159,1866,2023-02-25,North,Tablet,Bob,8,"display, battery",2,False,none,simple_component_agent,20529.585025862038,131389.34416551705,Returning
+160,1585,2023-02-26,South,Headphones,Frank,6,speaker,1,False,none,simple_component_agent,1851.330344875506,11107.982069253036,New
+161,1645,2023-02-27,West,Mobile,Frank,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30470.955049375985,91412.86514812795,Returning
+162,1357,2023-02-27,North,Monitor,Frank,3,"panel, stand, cable",3,False,none,general_component_agent,15580.26638416893,46740.79915250679,New
+163,1403,2023-02-27,East,Headphones,Bob,2,speaker,1,False,none,simple_component_agent,2080.2445985577806,4160.489197115561,Returning
+164,1656,2023-02-27,East,Mobile,Frank,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31520.832663957583,94562.49799187275,New
+165,1445,2023-02-27,South,Monitor,Eva,5,"panel, stand, cable",3,False,none,general_component_agent,16118.578264696996,80592.89132348498,New
+166,1437,2023-02-27,South,Headphones,Frank,2,speaker,1,False,none,simple_component_agent,1999.9835967859153,3999.9671935718306,Returning
+167,1031,2023-02-28,North,Monitor,Eva,2,"panel, stand, cable",3,False,none,general_component_agent,15690.747568588713,31381.495137177426,Returning
+168,1414,2023-03-01,North,Headphones,David,7,speaker,1,False,none,simple_component_agent,2047.6690941463346,5016.78928065852,New
+169,1263,2023-03-01,West,Headphones,Eva,8,speaker,1,False,none,simple_component_agent,1874.6559759190732,10498.073465146808,Returning
+170,1871,2023-03-02,North,Mobile,Charlie,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27154.13786921645,57023.68952535455,Returning
+171,1839,2023-03-02,West,Monitor,Bob,4,"panel, stand, cable",3,False,none,general_component_agent,14353.624157030803,40190.14763968625,Returning
+172,1162,2023-03-03,West,Monitor,Bob,1,"panel, stand, cable",3,False,none,general_component_agent,14829.10111901286,10380.370783309001,New
+173,1562,2023-03-03,North,Mobile,David,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30702.635666571943,64475.53489980108,New
+174,1974,2023-03-03,West,Tablet,Charlie,9,"display, battery",2,False,none,simple_component_agent,21399.837322012823,107855.1801029446,Returning
+175,1117,2023-03-03,East,Mobile,David,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28177.474300236994,59172.69603049768,Returning
+176,1102,2023-03-04,South,Headphones,David,8,speaker,1,False,none,simple_component_agent,1850.2199159593908,10361.231529372588,New
+177,1398,2023-03-04,South,Monitor,Frank,2,"panel, stand, cable",3,False,none,general_component_agent,16390.439842422984,22946.615779392178,Returning
+178,1732,2023-03-04,North,Laptop,Frank,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,64512.6238312697,270953.0200913327,New
+179,1139,2023-03-04,South,Tablet,Charlie,7,"display, battery",2,False,none,simple_component_agent,19913.964280428758,78062.73997928073,Returning
+180,1513,2023-03-06,South,Tablet,David,9,"display, battery",2,False,none,simple_component_agent,20342.25491517321,102524.96477247297,Returning
+181,1095,2023-03-06,South,Headphones,Bob,5,speaker,1,False,none,simple_component_agent,2016.5497683629753,7057.924189270413,Returning
+182,1724,2023-03-06,North,Headphones,Charlie,4,speaker,1,False,none,simple_component_agent,1834.4128628131773,5136.356015876896,New
+183,1159,2023-03-07,East,Mobile,David,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27342.16148402172,57418.5391164456,New
+184,1785,2023-03-07,North,Laptop,David,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,64476.7679844545,225668.68794559073,New
+185,1921,2023-03-08,East,Headphones,Alice,8,speaker,1,False,none,simple_component_agent,2034.2350735490454,11391.716411874653,New
+186,1299,2023-03-09,North,Monitor,Charlie,8,"panel, stand, cable",3,False,none,general_component_agent,15133.034662902963,84744.99411225658,Returning
+187,1920,2023-03-09,East,Mobile,Alice,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28402.44475222047,59645.133979662976,Returning
+188,1470,2023-03-10,South,Laptop,Bob,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,71928.8379858383,352451.3061306076,New
+189,1579,2023-03-10,East,Laptop,Bob,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,74480.9450287791,417093.29216116294,Returning
+190,1459,2023-03-10,East,Headphones,Alice,6,speaker,1,False,none,simple_component_agent,1816.6315839386375,7629.852652542278,Returning
+191,1814,2023-03-10,East,Headphones,Frank,5,speaker,1,False,none,simple_component_agent,1999.251977419217,6997.381920967259,New
+192,1628,2023-03-11,West,Mobile,David,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31135.86247261614,87180.41492332518,Returning
+193,1947,2023-03-11,East,Tablet,David,8,"display, battery",2,False,none,simple_component_agent,19009.247708278748,85161.4297330888,Returning
+194,1765,2023-03-13,South,Laptop,Charlie,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,67308.79267410409,188464.61948749144,New
+195,1005,2023-03-13,South,Laptop,Eva,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,71590.93064185137,451022.8630436636,Returning
+196,1859,2023-03-14,West,Laptop,Alice,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,75571.09410821232,317398.59525449167,Returning
+197,1603,2023-03-15,South,Monitor,Alice,8,"panel, stand, cable",3,False,none,general_component_agent,15929.773260908698,89206.7302610887,Returning
+198,1282,2023-03-16,South,Tablet,Eva,8,"display, battery",2,False,none,simple_component_agent,20332.520876398336,91089.69352626454,New
+199,1786,2023-03-16,East,Mobile,Eva,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31381.3303065435,65900.79364374134,New
+200,1536,2023-03-16,West,Mobile,Bob,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29188.934821246796,81729.01749949102,Returning
+201,1968,2023-03-16,North,Tablet,Eva,9,"display, battery",2,False,none,simple_component_agent,20563.86211239503,103641.86504647095,Returning
+202,1601,2023-03-17,East,Headphones,David,9,speaker,1,False,none,simple_component_agent,1986.472636451023,12514.777609641445,Returning
+203,1463,2023-03-17,East,Headphones,David,7,speaker,1,False,none,simple_component_agent,1875.9744545830245,9192.274827456818,New
+204,1571,2023-03-17,North,Mobile,Alice,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31210.429643263546,87389.20300113792,New
+205,1856,2023-03-19,West,Tablet,Charlie,7,"display, battery",2,False,none,simple_component_agent,20225.85854939529,79285.36551362953,New
+206,1755,2023-03-19,West,Headphones,Charlie,4,speaker,1,False,none,simple_component_agent,1943.4486327814366,5441.656171788022,Returning
+207,1888,2023-03-19,North,Laptop,Alice,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,75758.74866110084,212124.49625108234,Returning
+208,1664,2023-03-21,West,Headphones,Eva,5,speaker,1,False,none,simple_component_agent,1808.3736471306934,6329.307764957426,Returning
+209,1061,2023-03-22,North,Monitor,Eva,3,"panel, stand, cable",3,False,none,general_component_agent,14447.319453748489,30339.370852871823,Returning
+210,1104,2023-03-22,East,Mobile,Bob,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27341.28838666588,57416.705611998346,Returning
+211,1806,2023-03-22,North,Mobile,Bob,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31599.163897329767,66358.2441843925,New
+212,1204,2023-03-22,North,Monitor,David,7,"panel, stand, cable",3,False,none,general_component_agent,15606.32236234138,76470.97957547275,Returning
+213,1711,2023-03-23,West,Tablet,Eva,7,"display, battery",2,False,none,simple_component_agent,19325.408874945268,75755.60278978544,Returning
+214,1932,2023-03-24,South,Headphones,Frank,2,speaker,1,False,none,simple_component_agent,2070.265160882829,2898.3712252359605,Returning
+215,1752,2023-03-24,East,Monitor,David,4,"panel, stand, cable",3,False,none,general_component_agent,14687.81167858785,41125.87270004598,New
+216,1563,2023-03-25,South,Laptop,Charlie,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,73587.55307991408,206045.14862375942,Returning
+217,1754,2023-03-26,North,Monitor,Alice,5,"panel, stand, cable",3,False,none,general_component_agent,14862.55098821012,52018.92845873542,New
+218,1466,2023-03-27,South,Mobile,Eva,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29473.678366989996,82526.29942757198,New
+219,1157,2023-03-27,South,Tablet,Bob,8,"display, battery",2,False,none,simple_component_agent,21738.919661953205,97390.36008555035,New
+220,1912,2023-03-27,West,Laptop,David,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,66512.3073984698,46558.615178928856,New
+221,1012,2023-03-29,South,Monitor,Charlie,2,"panel, stand, cable",3,False,none,general_component_agent,13861.342019989697,19405.878827985576,New
+222,1454,2023-03-30,North,Mobile,Eva,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30507.25867955675,106775.40537844863,Returning
+223,1049,2023-03-30,South,Mobile,Bob,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32815.930873705074,91884.60644637421,Returning
+224,1692,2023-03-31,West,Mobile,Charlie,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29267.035282363122,61460.77409296255,New
+225,1527,2023-03-31,North,Headphones,Alice,7,speaker,1,False,none,simple_component_agent,1824.8147054515127,8941.592056712412,New
+226,1993,2023-03-31,West,Tablet,Bob,7,"display, battery",2,False,none,simple_component_agent,19357.221069238272,75880.30659141403,New
+227,1530,2023-03-31,East,Tablet,Charlie,9,"display, battery",2,False,none,simple_component_agent,20023.726617278233,100919.58215108229,Returning
+228,1634,2023-04-01,South,Monitor,Eva,5,"panel, stand, cable",3,False,none,general_component_agent,13985.769019896641,69928.84509948321,Returning
+229,1844,2023-04-02,South,Monitor,Frank,1,"panel, stand, cable",3,False,none,general_component_agent,15474.306654169479,15474.306654169479,New
+230,1389,2023-04-02,North,Monitor,Eva,1,"panel, stand, cable",3,False,none,general_component_agent,16493.248167030604,16493.248167030604,Returning
+231,1436,2023-04-02,South,Headphones,David,6,speaker,1,False,none,simple_component_agent,1980.6957903925777,11884.174742355466,Returning
+232,1057,2023-04-02,South,Tablet,Alice,7,"display, battery",2,False,none,simple_component_agent,19418.914226920853,108745.91967075678,New
+233,1529,2023-04-03,West,Mobile,Bob,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29404.225001006802,117616.90000402721,New
+234,1837,2023-04-03,East,Laptop,Bob,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,64612.04649753282,581508.4184777954,Returning
+235,1973,2023-04-04,West,Monitor,David,4,"panel, stand, cable",3,False,none,general_component_agent,16149.820804278672,64599.28321711469,Returning
+236,1472,2023-04-04,North,Monitor,Frank,5,"panel, stand, cable",3,False,none,general_component_agent,14744.476966564056,73722.38483282027,Returning
+237,1954,2023-04-05,West,Headphones,Frank,8,speaker,1,False,none,simple_component_agent,1954.9097645699367,7819.639058279747,New
+238,1343,2023-04-05,South,Headphones,David,3,speaker,1,False,none,simple_component_agent,2063.87610917219,6191.62832751657,New
+239,1828,2023-04-05,North,Headphones,Alice,5,speaker,1,False,none,simple_component_agent,1976.8133683724495,9884.066841862248,New
+240,1520,2023-04-05,North,Headphones,David,3,speaker,1,False,none,simple_component_agent,2059.293387523139,6177.880162569416,Returning
+241,1764,2023-04-05,West,Tablet,Frank,7,"display, battery",2,False,none,simple_component_agent,18245.78516052315,102176.39689892966,Returning
+242,1193,2023-04-06,West,Headphones,Bob,3,speaker,1,False,none,simple_component_agent,2125.489337488891,6376.468012466674,New
+243,1494,2023-04-06,East,Tablet,Charlie,8,"display, battery",2,False,none,simple_component_agent,21762.015811517613,139276.90119371272,Returning
+244,1547,2023-04-06,North,Headphones,David,7,speaker,1,False,none,simple_component_agent,2059.5061544637547,14416.543081246284,New
+245,1144,2023-04-06,North,Mobile,Charlie,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32727.395573152866,98182.1867194586,Returning
+246,1450,2023-04-06,South,Mobile,Charlie,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27908.59388621978,111634.37554487912,New
+247,1234,2023-04-07,East,Headphones,David,5,speaker,1,False,none,simple_component_agent,1990.9664757921414,9954.832378960708,Returning
+248,1321,2023-04-07,South,Laptop,Charlie,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,71425.29427523627,357126.47137618135,Returning
+249,1230,2023-04-08,South,Monitor,Eva,4,"panel, stand, cable",3,False,none,general_component_agent,15245.20994226356,60980.83976905424,New
+250,1793,2023-04-08,South,Laptop,Charlie,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,68620.46490724661,480343.25435072626,New
+251,1738,2023-04-08,West,Monitor,Frank,4,"panel, stand, cable",3,False,none,general_component_agent,14514.253228098785,58057.01291239514,New
+252,1336,2023-04-09,West,Laptop,David,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,64775.53631570586,129551.07263141172,New
+253,1289,2023-04-09,North,Tablet,Alice,7,"display, battery",2,False,none,simple_component_agent,19566.969802249114,109575.03089259505,New
+254,1344,2023-04-09,East,Mobile,Alice,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27975.964890632913,111903.85956253165,Returning
+255,1257,2023-04-09,South,Headphones,Charlie,9,speaker,1,False,none,simple_component_agent,2093.7462705968874,18843.716435371985,New
+256,1545,2023-04-09,North,Mobile,Alice,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28252.98561296754,113011.94245187016,New
+257,1272,2023-04-09,North,Mobile,Alice,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27351.391831707202,82054.1754951216,New
+258,1120,2023-04-09,North,Laptop,Charlie,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,70733.12592944129,636598.1333649716,New
+259,1740,2023-04-09,South,Mobile,David,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30571.37839631641,91714.13518894924,New
+260,1580,2023-04-09,South,Laptop,David,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,75206.78285792707,225620.3485737812,Returning
+261,1478,2023-04-10,South,Monitor,Alice,5,"panel, stand, cable",3,False,none,general_component_agent,15230.944837253048,76154.72418626524,New
+262,1488,2023-04-10,West,Laptop,Charlie,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,67836.73195212825,67836.73195212825,New
+263,1013,2023-04-10,North,Headphones,David,3,speaker,1,False,none,simple_component_agent,2121.2047526105284,6363.614257831585,New
+264,1569,2023-04-10,North,Headphones,Eva,8,speaker,1,False,none,simple_component_agent,2016.1115572749684,16128.892458199747,Returning
+265,1510,2023-04-11,North,Tablet,Frank,7,"display, battery",2,False,none,simple_component_agent,18317.121138524766,102575.8783757387,Returning
+266,1202,2023-04-11,East,Headphones,Charlie,4,speaker,1,False,none,simple_component_agent,2026.340224125299,8105.360896501196,New
+267,1934,2023-04-11,North,Monitor,David,2,"panel, stand, cable",3,False,none,general_component_agent,16224.055636264988,32448.111272529975,New
+268,1126,2023-04-11,East,Laptop,Alice,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,68548.37675697509,548387.0140558007,Returning
+269,1411,2023-04-11,South,Monitor,Alice,8,"panel, stand, cable",3,False,none,general_component_agent,14388.977405699401,115111.81924559521,Returning
+270,1417,2023-04-13,South,Headphones,David,4,speaker,1,False,none,simple_component_agent,1857.3877828072082,7429.551131228833,Returning
+271,1787,2023-04-13,North,Mobile,Alice,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27908.673131612144,139543.3656580607,New
+272,1008,2023-04-13,North,Mobile,Bob,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29596.628906050915,147983.1445302546,New
+273,1001,2023-04-13,East,Monitor,Alice,9,"panel, stand, cable",3,False,none,general_component_agent,15287.03947248459,137583.3552523613,Returning
+274,1369,2023-04-14,East,Tablet,Eva,8,"display, battery",2,False,none,simple_component_agent,18322.46162067841,117263.75437234182,New
+275,1284,2023-04-14,North,Mobile,David,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32637.411534151,130549.646136604,Returning
+276,1532,2023-04-15,West,Headphones,Bob,5,speaker,1,False,none,simple_component_agent,2102.0534469780782,10510.26723489039,Returning
+277,1739,2023-04-15,South,Laptop,Eva,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,71212.73485597127,569701.8788477702,Returning
+278,1066,2023-04-16,South,Tablet,David,7,"display, battery",2,False,none,simple_component_agent,21313.754683755964,119357.02622903339,New
+279,1429,2023-04-16,South,Headphones,Frank,7,speaker,1,False,none,simple_component_agent,1832.0747027248453,12824.522919073917,Returning
+280,1804,2023-04-16,East,Monitor,Charlie,5,"panel, stand, cable",3,False,none,general_component_agent,14930.516633199373,74652.58316599687,Returning
+281,1868,2023-04-17,West,Headphones,Eva,5,speaker,1,False,none,simple_component_agent,2052.0372507446655,10260.186253723328,New
+282,1004,2023-04-17,South,Tablet,David,8,"display, battery",2,False,none,simple_component_agent,21314.61162447316,136413.51439662822,Returning
+283,1166,2023-04-18,East,Headphones,Charlie,9,speaker,1,False,none,simple_component_agent,2113.387824019707,19020.490416177363,New
+284,1415,2023-04-18,West,Tablet,David,7,"display, battery",2,False,none,simple_component_agent,19108.2769988536,107006.35119358015,Returning
+285,1587,2023-04-19,South,Tablet,Frank,7,"display, battery",2,False,none,simple_component_agent,21763.52067823682,121875.71579812618,New
+286,1923,2023-04-19,South,Mobile,Bob,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27746.075048585222,138730.37524292612,Returning
+287,1925,2023-04-21,East,Tablet,Bob,8,"display, battery",2,False,none,simple_component_agent,21500.53447448461,137603.4206367015,Returning
+288,1823,2023-04-21,South,Laptop,Charlie,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,76593.16349446466,689338.471450182,Returning
+289,1927,2023-04-21,South,Headphones,Frank,8,speaker,1,False,none,simple_component_agent,1870.8614092890502,14966.891274312402,Returning
+290,1897,2023-04-21,North,Monitor,David,7,"panel, stand, cable",3,False,none,general_component_agent,15666.198192611357,109663.3873482795,Returning
+291,1929,2023-04-21,East,Laptop,Alice,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,63563.99726289198,444947.98084024386,New
+292,1288,2023-04-22,North,Tablet,Alice,9,"display, battery",2,False,none,simple_component_agent,19621.69130055662,141276.17736400766,New
+293,1779,2023-04-22,East,Monitor,David,5,"panel, stand, cable",3,False,none,general_component_agent,15048.849897593023,75244.24948796512,Returning
+294,1948,2023-04-22,South,Laptop,David,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,71129.03316273488,284516.1326509395,Returning
+295,1262,2023-04-22,East,Headphones,David,3,speaker,1,False,none,simple_component_agent,2174.374899299424,6523.124697898273,Returning
+296,1203,2023-04-23,South,Tablet,Alice,8,"display, battery",2,False,none,simple_component_agent,20689.00274917678,132409.6175947314,New
+297,1877,2023-04-23,West,Tablet,Eva,8,"display, battery",2,False,none,simple_component_agent,19925.11180487695,127520.71555121249,New
+298,1201,2023-04-23,West,Monitor,Alice,4,"panel, stand, cable",3,False,none,general_component_agent,15929.025108797669,63716.100435190674,Returning
+299,1283,2023-04-23,North,Headphones,Frank,6,speaker,1,False,none,simple_component_agent,2180.2131283817635,13081.27877029058,New
+300,1206,2023-04-23,East,Monitor,David,3,"panel, stand, cable",3,False,none,general_component_agent,13566.198446046874,40698.59533814062,Returning
+301,1989,2023-04-23,East,Headphones,Frank,4,speaker,1,False,none,simple_component_agent,2193.0085089024155,8772.034035609662,Returning
+302,1196,2023-04-23,West,Headphones,Frank,9,speaker,1,False,none,simple_component_agent,1834.4528556254722,16510.07570062925,Returning
+303,1535,2023-04-24,East,Tablet,Bob,8,"display, battery",2,False,none,simple_component_agent,21257.547117075046,136048.3015492803,New
+304,1362,2023-04-24,East,Tablet,David,7,"display, battery",2,False,none,simple_component_agent,19121.33901020565,107079.49845715165,Returning
+305,1531,2023-04-25,West,Mobile,Alice,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27793.077946523234,83379.2338395697,Returning
+306,1346,2023-04-26,South,Headphones,Alice,5,speaker,1,False,none,simple_component_agent,1975.942255885534,9879.711279427669,Returning
+307,1281,2023-04-26,West,Laptop,Eva,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,72015.39211226659,648138.5290103994,New
+308,1178,2023-04-26,South,Headphones,Frank,3,speaker,1,False,none,simple_component_agent,1952.3807380093901,5857.14221402817,New
+309,1654,2023-04-27,West,Mobile,Eva,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27327.392449696195,109309.56979878478,New
+310,1440,2023-04-27,North,Headphones,Charlie,6,speaker,1,False,none,simple_component_agent,2039.7844558634865,12238.70673518092,Returning
+311,1770,2023-04-28,West,Headphones,Alice,4,speaker,1,False,none,simple_component_agent,2160.96131044427,8643.84524177708,New
+312,1983,2023-04-28,South,Monitor,Charlie,7,"panel, stand, cable",3,False,none,general_component_agent,14649.646097841756,102547.52268489229,Returning
+313,1972,2023-04-28,West,Tablet,Alice,9,"display, battery",2,False,none,simple_component_agent,18865.331110523308,135830.38399576783,New
+314,1452,2023-04-28,North,Laptop,David,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,69196.08284305943,415176.49705835653,Returning
+315,1906,2023-04-29,North,Monitor,Frank,5,"panel, stand, cable",3,False,none,general_component_agent,13645.088133146344,68225.44066573172,New
+316,1722,2023-04-29,West,Laptop,Alice,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,74486.82618272386,446920.95709634316,Returning
+317,1279,2023-04-30,South,Monitor,Charlie,5,"panel, stand, cable",3,False,none,general_component_agent,15979.022432850563,79895.11216425282,New
+318,1433,2023-04-30,West,Mobile,Bob,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30528.002780577768,152640.01390288884,New
+319,1177,2023-05-01,East,Monitor,David,1,"panel, stand, cable",3,False,none,general_component_agent,14559.30866681517,14559.30866681517,New
+320,1863,2023-05-01,South,Laptop,Frank,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,74196.96710224097,519378.7697156868,Returning
+321,1592,2023-05-02,East,Mobile,Charlie,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30328.122148730206,121312.48859492083,New
+322,1446,2023-05-02,East,Headphones,Eva,9,speaker,1,False,none,simple_component_agent,2130.372923420007,19173.356310780062,New
+323,1689,2023-05-02,West,Tablet,Eva,8,"display, battery",2,False,none,simple_component_agent,20525.835170332084,131365.34509012534,New
+324,1009,2023-05-02,East,Mobile,Frank,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31706.432839276786,126825.73135710714,New
+325,1840,2023-05-02,North,Monitor,Frank,9,"panel, stand, cable",3,False,none,general_component_agent,15295.68897965328,137661.20081687951,Returning
+326,1612,2023-05-02,North,Mobile,Charlie,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29484.846409294,117939.385637176,New
+327,1225,2023-05-03,South,Laptop,Charlie,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,76411.24203896592,305644.9681558637,Returning
+328,1236,2023-05-04,East,Tablet,Frank,9,"display, battery",2,False,none,simple_component_agent,20164.45529951538,145184.07815651075,Returning
+329,1428,2023-05-04,West,Tablet,Alice,7,"display, battery",2,False,none,simple_component_agent,20420.358074162155,114354.00521530808,Returning
+330,1400,2023-05-05,North,Monitor,Frank,5,"panel, stand, cable",3,False,none,general_component_agent,14161.462918244248,70807.31459122123,Returning
+331,1644,2023-05-06,East,Tablet,Charlie,9,"display, battery",2,False,none,simple_component_agent,20502.603157709105,147618.74273550557,New
+332,1913,2023-05-06,East,Monitor,Frank,6,"panel, stand, cable",3,False,none,general_component_agent,15214.822948448833,91288.937690693,Returning
+333,1451,2023-05-06,East,Mobile,Eva,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28109.030387682153,140545.15193841077,Returning
+334,1214,2023-05-06,North,Monitor,David,1,"panel, stand, cable",3,False,none,general_component_agent,13678.761292059431,13678.761292059431,Returning
+335,1639,2023-05-06,South,Headphones,Charlie,9,speaker,1,False,none,simple_component_agent,2041.7437278859088,18375.693550973177,Returning
+336,1819,2023-05-06,West,Headphones,Bob,3,speaker,1,False,none,simple_component_agent,2105.4769077401284,6316.430723220385,New
+337,1366,2023-05-07,West,Laptop,Frank,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,70327.61919290811,281310.47677163244,New
+338,1443,2023-05-07,West,Tablet,Alice,8,"display, battery",2,False,none,simple_component_agent,18907.090501278584,121005.37920818295,Returning
+339,1883,2023-05-07,West,Headphones,Eva,9,speaker,1,False,none,simple_component_agent,2066.608790677214,18599.479116094928,Returning
+340,1352,2023-05-08,West,Tablet,Eva,8,"display, battery",2,False,none,simple_component_agent,18320.42290643841,117250.70660120582,Returning
+341,1249,2023-05-08,North,Laptop,Bob,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,69185.67186722737,138371.34373445474,New
+342,1305,2023-05-08,East,Monitor,David,8,"panel, stand, cable",3,False,none,general_component_agent,13990.100275195262,111920.8022015621,New
+343,1171,2023-05-08,South,Monitor,David,7,"panel, stand, cable",3,False,none,general_component_agent,14053.377153179652,98373.64007225756,New
+344,1253,2023-05-09,South,Laptop,Frank,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,65832.11528821486,394992.69172928913,New
+345,1100,2023-05-09,East,Mobile,David,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29320.242342263868,146601.21171131934,New
+346,1444,2023-05-09,East,Monitor,Alice,7,"panel, stand, cable",3,False,none,general_component_agent,13653.450616861193,95574.15431802835,Returning
+347,1208,2023-05-10,North,Tablet,Bob,7,"display, battery",2,False,none,simple_component_agent,19591.173763716393,109710.57307681181,New
+348,1215,2023-05-10,South,Monitor,Eva,9,"panel, stand, cable",3,False,none,general_component_agent,15035.122341344106,135316.10107209696,New
+349,1276,2023-05-11,North,Monitor,Alice,1,"panel, stand, cable",3,False,none,general_component_agent,14949.882854898977,14949.882854898977,Returning
+350,1016,2023-05-11,West,Monitor,Frank,2,"panel, stand, cable",3,False,none,general_component_agent,14648.352301209123,29296.704602418245,New
+351,1042,2023-05-11,South,Headphones,Bob,9,speaker,1,False,none,simple_component_agent,2135.658643228301,19220.92778905471,New
+352,1127,2023-05-11,East,Laptop,Bob,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,65034.57369388706,585311.1632449835,New
+353,1626,2023-05-12,South,Monitor,Eva,6,"panel, stand, cable",3,False,none,general_component_agent,15017.090231344122,90102.54138806474,Returning
+354,1807,2023-05-13,East,Tablet,Bob,7,"display, battery",2,False,none,simple_component_agent,18248.16566782622,102189.72773982683,New
+355,1745,2023-05-13,North,Headphones,David,4,speaker,1,False,none,simple_component_agent,1828.4622715511641,7313.8490862046565,Returning
+356,1593,2023-05-13,East,Headphones,David,4,speaker,1,False,none,simple_component_agent,2029.546339870839,8118.185359483356,Returning
+357,1850,2023-05-13,North,Monitor,Eva,5,"panel, stand, cable",3,False,none,general_component_agent,15198.055274663464,75990.27637331732,New
+358,1981,2023-05-13,South,Monitor,David,3,"panel, stand, cable",3,False,none,general_component_agent,16134.100538533374,48402.301615600125,New
+359,1655,2023-05-14,East,Tablet,Eva,8,"display, battery",2,False,none,simple_component_agent,20231.494702640295,129481.56609689789,New
+360,1971,2023-05-14,West,Laptop,Eva,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,76437.07428566791,76437.07428566791,New
+361,1163,2023-05-14,West,Laptop,Charlie,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,63681.72787759902,445772.09514319315,Returning
+362,1111,2023-05-15,East,Headphones,David,1,speaker,1,False,none,simple_component_agent,1839.2030739122965,1839.2030739122965,New
+363,1303,2023-05-15,East,Headphones,Frank,1,speaker,1,False,none,simple_component_agent,1817.6263446281525,1817.6263446281525,Returning
+364,1044,2023-05-15,East,Monitor,Frank,3,"panel, stand, cable",3,False,none,general_component_agent,14055.830551000621,42167.49165300187,Returning
+365,1618,2023-05-16,South,Headphones,Charlie,4,speaker,1,False,none,simple_component_agent,2016.5080443766713,8066.032177506685,Returning
+366,1693,2023-05-16,South,Mobile,Bob,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30873.43308856457,92620.2992656937,Returning
+367,1101,2023-05-16,East,Mobile,Frank,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27273.510947692015,81820.53284307604,Returning
+368,1957,2023-05-17,South,Tablet,Eva,7,"display, battery",2,False,none,simple_component_agent,21783.883559382397,121989.74793254142,New
+369,1183,2023-05-17,North,Headphones,Alice,3,speaker,1,False,none,simple_component_agent,2136.866150660153,6410.598451980459,Returning
+370,1809,2023-05-18,South,Laptop,Eva,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,67152.5747501993,268610.2990007972,Returning
+371,1103,2023-05-19,South,Laptop,Charlie,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,64080.62542317055,192241.87626951165,New
+372,1998,2023-05-19,East,Headphones,David,8,speaker,1,False,none,simple_component_agent,1867.954829287623,14943.638634300984,New
+373,1267,2023-05-20,West,Mobile,David,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27761.666482529836,138808.33241264918,Returning
+374,1990,2023-05-20,South,Mobile,David,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27739.70267579368,138698.5133789684,Returning
+375,1641,2023-05-21,North,Monitor,Eva,7,"panel, stand, cable",3,False,none,general_component_agent,15055.685065997204,105389.79546198042,New
+376,1608,2023-05-21,East,Tablet,Eva,6,"display, battery",2,False,none,simple_component_agent,18983.3897699736,91120.2708958733,Returning
+377,1994,2023-05-22,East,Laptop,Frank,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,68013.95603140803,544111.6482512642,New
+378,1387,2023-05-22,West,Monitor,Eva,3,"panel, stand, cable",3,False,none,general_component_agent,16468.516000152966,49405.5480004589,New
+379,1388,2023-05-23,West,Mobile,Alice,3,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31105.88549355207,93317.65648065621,Returning
+380,1677,2023-05-23,West,Headphones,Alice,9,speaker,1,False,none,simple_component_agent,2179.592266818801,19616.330401369207,New
+381,1148,2023-05-23,East,Laptop,David,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,64995.79177046363,64995.79177046363,Returning
+382,1681,2023-05-24,North,Monitor,Eva,1,"panel, stand, cable",3,False,none,general_component_agent,14646.41842449771,14646.41842449771,Returning
+383,1426,2023-05-24,North,Mobile,Charlie,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30328.390819694123,151641.95409847063,Returning
+384,1578,2023-05-24,East,Laptop,Charlie,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,64074.61286644234,192223.83859932702,New
+385,1584,2023-05-24,East,Mobile,Eva,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27025.124661767746,135125.62330883872,Returning
+386,1260,2023-05-24,West,Laptop,Charlie,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,72386.08067315686,72386.08067315686,New
+387,1465,2023-05-24,West,Laptop,Bob,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,71985.4732352201,359927.36617610045,Returning
+388,1233,2023-05-24,West,Headphones,Charlie,6,speaker,1,False,none,simple_component_agent,1964.3155239998448,11785.893143999068,Returning
+389,1432,2023-05-25,North,Laptop,Alice,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,69855.01706444846,558840.1365155877,New
+390,1703,2023-05-25,North,Mobile,David,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29492.65800355254,176955.94802131524,Returning
+391,1753,2023-05-25,North,Tablet,Frank,6,"display, battery",2,False,none,simple_component_agent,18096.020179379557,86860.89686102187,Returning
+392,1916,2023-05-25,North,Headphones,Bob,9,speaker,1,False,none,simple_component_agent,1934.1486424869852,17407.337782382867,New
+393,1622,2023-05-25,East,Tablet,Charlie,7,"display, battery",2,False,none,simple_component_agent,18708.32902158916,104766.6425208993,New
+394,1599,2023-05-26,East,Mobile,Alice,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27590.54513460821,137952.72567304107,New
+395,1924,2023-05-26,West,Mobile,Eva,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32740.322603336102,163701.61301668052,Returning
+396,1725,2023-05-26,South,Monitor,Eva,2,"panel, stand, cable",3,False,none,general_component_agent,15298.079175126499,15298.079175126499,New
+397,1431,2023-05-27,South,Monitor,Frank,8,"panel, stand, cable",3,False,none,general_component_agent,15685.968852709811,125487.75082167849,New
+398,1273,2023-05-27,West,Monitor,Charlie,6,"panel, stand, cable",3,False,none,general_component_agent,14446.091229798354,86676.54737879013,Returning
+399,1493,2023-05-27,North,Mobile,David,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29358.882776964092,146794.41388482047,New
+400,1244,2023-05-27,South,Laptop,Charlie,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,66316.93591455414,596852.4232309873,Returning
+401,1671,2023-05-27,North,Monitor,Alice,5,"panel, stand, cable",3,False,none,general_component_agent,13790.897012896276,68954.48506448139,Returning
+402,1325,2023-05-27,South,Tablet,Bob,7,"display, battery",2,False,none,simple_component_agent,18716.126549766337,104810.3086786915,New
+403,1245,2023-05-28,North,Monitor,David,7,"panel, stand, cable",3,False,none,general_component_agent,15892.54213588946,111247.79495122621,Returning
+404,1241,2023-05-28,West,Mobile,Frank,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31065.27483110266,124261.09932441064,New
+405,1646,2023-05-28,West,Headphones,Frank,7,speaker,1,False,none,simple_component_agent,2018.7715503941909,14131.400852759336,New
+406,1663,2023-05-29,East,Laptop,David,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,69651.25822013475,208953.77466040425,New
+407,1401,2023-05-30,East,Headphones,Alice,2,speaker,1,False,none,simple_component_agent,2168.9737134624497,4337.947426924899,New
+408,1944,2023-05-30,North,Tablet,Charlie,7,"display, battery",2,False,none,simple_component_agent,18290.939791114673,102429.26283024217,Returning
+409,1017,2023-05-30,North,Laptop,Bob,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,66928.41138533082,200785.23415599245,Returning
+410,1255,2023-05-31,South,Monitor,Eva,3,"panel, stand, cable",3,False,none,general_component_agent,14549.813560712144,43649.44068213643,New
+411,1365,2023-05-31,North,Laptop,Eva,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,73953.96137097903,147907.92274195806,New
+412,1549,2023-05-31,West,Headphones,David,4,speaker,1,False,none,simple_component_agent,2197.005848064789,8788.023392259156,Returning
+413,1825,2023-05-31,West,Tablet,David,8,"display, battery",2,False,none,simple_component_agent,18962.68205902861,121361.16517778311,New
+414,1583,2023-05-31,West,Headphones,Alice,1,speaker,1,False,none,simple_component_agent,2149.722933654832,2149.722933654832,Returning
+415,1548,2023-06-01,South,Laptop,Charlie,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,74628.71864604508,74628.71864604508,New
+416,1190,2023-06-01,West,Mobile,Eva,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28347.9443858506,170087.6663151036,Returning
+417,1505,2023-06-01,East,Monitor,Bob,5,"panel, stand, cable",3,False,none,general_component_agent,14697.997740597668,73489.98870298834,Returning
+418,1015,2023-06-01,South,Tablet,Bob,6,"display, battery",2,False,none,simple_component_agent,19638.69147717008,94265.71909041639,Returning
+419,1955,2023-06-01,South,Tablet,David,7,"display, battery",2,False,none,simple_component_agent,21912.882674106237,122712.14297499495,New
+420,1277,2023-06-01,East,Monitor,Frank,1,"panel, stand, cable",3,False,none,general_component_agent,14042.675704136696,14042.675704136696,New
+421,1290,2023-06-02,West,Mobile,Charlie,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31794.947826628693,190769.68695977217,New
+422,1396,2023-06-02,South,Tablet,Eva,6,"display, battery",2,False,none,simple_component_agent,19336.77085669244,92816.50011212373,New
+423,1767,2023-06-03,West,Headphones,Frank,5,speaker,1,False,none,simple_component_agent,2092.3481383104645,10461.740691552322,New
+424,1891,2023-06-03,South,Monitor,Alice,6,"panel, stand, cable",3,False,none,general_component_agent,14760.033012886988,88560.19807732193,Returning
+425,1464,2023-06-03,South,Mobile,Alice,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30470.15857869924,182820.95147219545,Returning
+426,1367,2023-06-04,South,Laptop,Frank,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,74656.56482656584,74656.56482656584,Returning
+427,1836,2023-06-04,West,Tablet,Charlie,7,"display, battery",2,False,none,simple_component_agent,21216.66225993554,118813.30865563902,Returning
+428,1687,2023-06-05,South,Monitor,Eva,9,"panel, stand, cable",3,False,none,general_component_agent,16099.269550619101,144893.4259555719,Returning
+429,1092,2023-06-06,East,Tablet,Frank,7,"display, battery",2,False,none,simple_component_agent,18238.46930137864,102135.42808772037,Returning
+430,1310,2023-06-07,South,Laptop,Frank,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,72688.70774255643,436132.2464553386,Returning
+431,1430,2023-06-07,North,Mobile,Frank,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27839.92426033058,222719.39408264463,New
+432,1333,2023-06-07,East,Laptop,Charlie,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,68821.45995225776,137642.91990451553,Returning
+433,1659,2023-06-09,South,Tablet,Bob,7,"display, battery",2,False,none,simple_component_agent,20194.353660218756,113088.38049722504,New
+434,1192,2023-06-09,East,Mobile,Eva,4,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29416.436908480984,117665.74763392394,Returning
+435,1269,2023-06-09,East,Laptop,Alice,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,70274.5634612421,70274.5634612421,Returning
+436,1838,2023-06-09,East,Headphones,Alice,4,speaker,1,False,none,simple_component_agent,2198.6105235194477,8794.44209407779,New
+437,1503,2023-06-09,North,Mobile,Bob,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27811.30388227713,194679.1271759399,Returning
+438,1153,2023-06-09,East,Headphones,Eva,7,speaker,1,False,none,simple_component_agent,2070.1824181345705,14491.276926941993,New
+439,1219,2023-06-09,South,Monitor,Bob,7,"panel, stand, cable",3,False,none,general_component_agent,14688.002899156845,102816.02029409792,Returning
+440,1349,2023-06-10,East,Mobile,Alice,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27798.05879344397,138990.29396721986,New
+441,1298,2023-06-10,East,Headphones,Charlie,3,speaker,1,False,none,simple_component_agent,1863.494705349724,5590.484116049172,Returning
+442,1280,2023-06-10,South,Laptop,Alice,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,76289.82348743865,457738.9409246319,New
+443,1024,2023-06-10,East,Tablet,David,6,"display, battery",2,False,none,simple_component_agent,21518.40598684705,103288.34873686585,New
+444,1769,2023-06-11,South,Mobile,Charlie,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32442.251762490134,194653.5105749408,Returning
+445,1072,2023-06-11,South,Headphones,Eva,8,speaker,1,False,none,simple_component_agent,2196.613110330955,17572.90488264764,Returning
+446,1295,2023-06-12,North,Tablet,Alice,8,"display, battery",2,False,none,simple_component_agent,18833.261560034072,120532.87398421807,New
+447,1594,2023-06-12,North,Laptop,David,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,67976.15072309687,611785.3565078719,Returning
+448,1507,2023-06-12,North,Monitor,Alice,9,"panel, stand, cable",3,False,none,general_component_agent,15507.657089774602,139568.91380797143,New
+449,1105,2023-06-12,East,Laptop,Charlie,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,69773.23555804907,558185.8844643926,Returning
+450,1540,2023-06-13,East,Headphones,Bob,1,speaker,1,False,none,simple_component_agent,1967.3558133513336,1967.3558133513336,New
+451,1691,2023-06-13,South,Monitor,Charlie,2,"panel, stand, cable",3,False,none,general_component_agent,14573.43374800678,29146.86749601356,Returning
+452,1669,2023-06-13,South,Headphones,David,6,speaker,1,False,none,simple_component_agent,2037.5122527773808,12225.073516664284,New
+453,1750,2023-06-14,East,Laptop,Frank,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,71058.30800096116,355291.5400048058,Returning
+454,1616,2023-06-14,West,Monitor,Bob,9,"panel, stand, cable",3,False,none,general_component_agent,13984.37350219272,125859.36151973449,New
+455,1185,2023-06-14,South,Mobile,Charlie,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29830.439025110638,178982.63415066383,New
+456,1800,2023-06-15,North,Headphones,Frank,2,speaker,1,False,none,simple_component_agent,2021.38871048394,4042.77742096788,Returning
+457,1047,2023-06-16,West,Laptop,Bob,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,70984.01714223948,283936.0685689579,Returning
+458,1633,2023-06-16,East,Headphones,Alice,9,speaker,1,False,none,simple_component_agent,1884.0428771649406,16956.385894484465,New
+459,1609,2023-06-17,North,Mobile,Alice,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31453.62835351372,157268.1417675686,New
+460,1514,2023-06-17,South,Laptop,Bob,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,63352.787327494974,63352.787327494974,New
+461,1297,2023-06-18,North,Headphones,Charlie,7,speaker,1,False,none,simple_component_agent,1941.9327422172653,13593.529195520858,New
+462,1407,2023-06-19,West,Monitor,Eva,3,"panel, stand, cable",3,False,none,general_component_agent,15840.6379456069,47521.913836820706,Returning
+463,1160,2023-06-19,East,Mobile,Frank,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30383.357526332416,151916.7876316621,New
+464,1845,2023-06-19,West,Headphones,Charlie,9,speaker,1,False,none,simple_component_agent,1904.464973004344,17140.184757039096,New
+465,1032,2023-06-19,North,Monitor,David,3,"panel, stand, cable",3,False,none,general_component_agent,15584.859358029144,46754.57807408743,New
+466,1374,2023-06-19,West,Mobile,Charlie,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30404.34566493644,182426.07398961866,Returning
+467,1610,2023-06-19,North,Headphones,Alice,8,speaker,1,False,none,simple_component_agent,2118.4974437825554,16947.979550260443,New
+468,1149,2023-06-20,North,Monitor,David,6,"panel, stand, cable",3,False,none,general_component_agent,15705.07555856947,94230.45335141681,Returning
+469,1189,2023-06-21,East,Headphones,Eva,6,speaker,1,False,none,simple_component_agent,2044.0431688144943,12264.259012886965,Returning
+470,1217,2023-06-21,East,Laptop,David,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,69834.4874543514,488841.4121804598,Returning
+471,1121,2023-06-21,South,Tablet,Eva,7,"display, battery",2,False,none,simple_component_agent,18532.728502670096,103783.27961495254,Returning
+472,1331,2023-06-21,South,Mobile,Frank,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28567.998107312305,142839.99053656153,Returning
+473,1658,2023-06-22,East,Laptop,Eva,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,68867.3926208392,275469.5704833568,Returning
+474,1383,2023-06-22,West,Monitor,Charlie,9,"panel, stand, cable",3,False,none,general_component_agent,15297.897861019168,137681.0807491725,Returning
+475,1758,2023-06-22,East,Monitor,David,6,"panel, stand, cable",3,False,none,general_component_agent,15041.123565645914,90246.74139387548,New
+476,1640,2023-06-22,East,Mobile,Charlie,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28729.107155757178,172374.64293454308,New
+477,1979,2023-06-22,North,Mobile,Alice,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27038.786146738265,162232.7168804296,Returning
+478,1660,2023-06-22,East,Laptop,Eva,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,69947.34910661141,279789.39642644563,New
+479,1607,2023-06-23,West,Mobile,David,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28713.75593137346,143568.7796568673,New
+480,1360,2023-06-23,East,Mobile,Charlie,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31407.64980426321,188445.89882557926,Returning
+481,1036,2023-06-24,South,Laptop,Frank,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,63335.247713786775,316676.23856893386,New
+482,1307,2023-06-25,East,Monitor,Frank,2,"panel, stand, cable",3,False,none,general_component_agent,15254.483433917372,30508.966867834744,Returning
+483,1372,2023-06-25,East,Tablet,Frank,7,"display, battery",2,False,none,simple_component_agent,21765.89695002426,121889.02292013586,New
+484,1728,2023-06-26,East,Mobile,Eva,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28046.455602668997,196325.189218683,Returning
+485,1737,2023-06-26,South,Headphones,Charlie,6,speaker,1,False,none,simple_component_agent,1988.6597963002384,11931.95877780143,Returning
+486,1544,2023-06-26,South,Laptop,Frank,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,64279.907885439934,578519.1709689595,New
+487,1568,2023-06-26,West,Monitor,Eva,1,"panel, stand, cable",3,False,none,general_component_agent,15377.045736784059,15377.045736784059,New
+488,1506,2023-06-27,South,Headphones,Eva,6,speaker,1,False,none,simple_component_agent,2020.2126722384905,12121.276033430942,Returning
+489,1696,2023-06-27,East,Monitor,Charlie,9,"panel, stand, cable",3,False,none,general_component_agent,14722.096572638498,132498.8691537465,Returning
+490,1138,2023-06-28,South,Mobile,Alice,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30128.262128842453,180769.5727730547,Returning
+491,1509,2023-06-28,South,Headphones,Frank,2,speaker,1,False,none,simple_component_agent,2158.6298633876045,4317.259726775209,New
+492,1880,2023-06-29,East,Monitor,Alice,4,"panel, stand, cable",3,False,none,general_component_agent,14088.8829069332,56355.5316277328,New
+493,1490,2023-06-29,North,Mobile,Frank,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27135.387070232086,162812.3224213925,New
+494,1936,2023-06-29,West,Tablet,Eva,6,"display, battery",2,False,none,simple_component_agent,21446.659538796404,102943.96578622275,New
+495,1195,2023-06-29,West,Mobile,David,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30462.702494327437,152313.5124716372,Returning
+496,1406,2023-06-29,East,Headphones,Frank,5,speaker,1,False,none,simple_component_agent,2156.263382184737,10781.316910923686,Returning
+497,1342,2023-06-30,South,Tablet,Eva,7,"display, battery",2,False,none,simple_component_agent,20387.780893652693,114171.57300445507,Returning
+498,1588,2023-06-30,West,Tablet,David,6,"display, battery",2,False,none,simple_component_agent,21240.64435983881,101955.09292722629,Returning
+499,1632,2023-07-01,North,Laptop,David,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,69015.42708697208,345077.13543486036,New
+500,1554,2023-07-02,West,Tablet,Eva,7,"display, battery",2,False,none,simple_component_agent,20999.439725153075,117596.86246085721,Returning
+501,1826,2023-07-02,North,Mobile,Alice,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32478.248801339138,227347.74160937397,Returning
+502,1831,2023-07-03,South,Monitor,Eva,4,"panel, stand, cable",3,False,none,general_component_agent,15216.36889116662,60865.47556466648,New
+503,1224,2023-07-03,West,Tablet,Alice,8,"display, battery",2,False,none,simple_component_agent,18723.14060224952,119828.09985439695,New
+504,1810,2023-07-03,North,Mobile,David,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28612.78569018119,200289.49983126833,Returning
+505,1467,2023-07-04,South,Tablet,Eva,7,"display, battery",2,False,none,simple_component_agent,18794.578307589625,105249.6385225019,New
+506,1694,2023-07-05,South,Monitor,Bob,1,"panel, stand, cable",3,False,none,general_component_agent,14240.5710827872,14240.5710827872,Returning
+507,1397,2023-07-05,East,Monitor,David,4,"panel, stand, cable",3,False,none,general_component_agent,14419.24634805311,57676.98539221244,New
+508,1590,2023-07-05,North,Monitor,Bob,7,"panel, stand, cable",3,False,none,general_component_agent,15165.401360259566,106157.80952181696,New
+509,1155,2023-07-06,West,Monitor,Frank,1,"panel, stand, cable",3,False,none,general_component_agent,15263.974888391498,15263.974888391498,Returning
+510,1566,2023-07-06,North,Headphones,Eva,9,speaker,1,False,none,simple_component_agent,1970.5998988967447,17735.399090070703,New
+511,1205,2023-07-06,West,Mobile,Alice,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30692.524678925016,214847.6727524751,Returning
+512,1237,2023-07-06,North,Mobile,Bob,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27489.449553668193,164936.69732200916,New
+513,1893,2023-07-06,East,Headphones,Bob,1,speaker,1,False,none,simple_component_agent,1835.115294823264,1835.115294823264,New
+514,1345,2023-07-07,South,Monitor,Frank,4,"panel, stand, cable",3,False,none,general_component_agent,14015.488381072977,56061.95352429191,New
+515,1090,2023-07-07,North,Laptop,Eva,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,70253.08497256483,316138.88237654173,New
+516,1033,2023-07-07,South,Tablet,Bob,6,"display, battery",2,False,none,simple_component_agent,18855.978714793255,90508.69783100764,New
+517,1457,2023-07-08,North,Tablet,Alice,7,"display, battery",2,False,none,simple_component_agent,19133.13761397031,107145.57063823374,Returning
+518,1006,2023-07-08,West,Tablet,Frank,6,"display, battery",2,False,none,simple_component_agent,19601.251344691977,94086.0064545215,New
+519,1550,2023-07-09,East,Headphones,Frank,2,speaker,1,False,none,simple_component_agent,2124.746449604152,4249.492899208304,Returning
+520,1080,2023-07-09,West,Monitor,Alice,6,"panel, stand, cable",3,False,none,general_component_agent,13541.58640773858,81249.51844643148,New
+521,1399,2023-07-09,East,Tablet,David,7,"display, battery",2,False,none,simple_component_agent,20597.515280946493,57673.04278665018,Returning
+522,1651,2023-07-09,South,Mobile,Bob,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31013.259186244115,217092.81430370882,New
+523,1174,2023-07-09,South,Laptop,David,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,74181.18092499292,296724.7236999717,Returning
+524,1035,2023-07-09,West,Tablet,Charlie,7,"display, battery",2,False,none,simple_component_agent,21731.011756241252,121693.66583495101,Returning
+525,1069,2023-07-10,West,Laptop,Frank,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,63281.92988529006,569537.3689676105,New
+526,1347,2023-07-10,West,Tablet,Alice,5,"display, battery",2,False,none,simple_component_agent,18615.134822052867,74460.53928821148,New
+527,1652,2023-07-10,East,Mobile,Frank,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32317.027764335962,193902.16658601578,New
+528,1905,2023-07-11,North,Mobile,Eva,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29751.111373122094,208257.77961185467,Returning
+529,1022,2023-07-11,North,Mobile,Alice,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30387.543833600783,182325.2630016047,Returning
+530,1542,2023-07-11,West,Monitor,Bob,1,"panel, stand, cable",3,False,none,general_component_agent,15489.081611169442,15489.081611169442,New
+531,1458,2023-07-11,North,Monitor,Frank,9,"panel, stand, cable",3,False,none,general_component_agent,15537.199813486914,139834.79832138223,New
+532,1702,2023-07-11,North,Monitor,Eva,9,"panel, stand, cable",3,False,none,general_component_agent,16295.221209949525,146656.99088954573,Returning
+533,1328,2023-07-11,North,Laptop,David,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,76957.29184376338,153914.58368752676,Returning
+534,1788,2023-07-11,South,Tablet,Alice,6,"display, battery",2,False,none,simple_component_agent,20880.629843723764,100227.02324987407,New
+535,1293,2023-07-13,West,Monitor,Bob,8,"panel, stand, cable",3,False,none,general_component_agent,14361.663627615453,114893.30902092363,Returning
+536,1975,2023-07-13,South,Monitor,Alice,7,"panel, stand, cable",3,False,none,general_component_agent,16139.257206883032,112974.80044818122,New
+537,1613,2023-07-13,South,Laptop,Eva,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,63689.09280357067,63689.09280357067,New
+538,1833,2023-07-14,South,Monitor,Alice,5,"panel, stand, cable",3,False,none,general_component_agent,14193.24255862349,70966.21279311745,New
+539,1835,2023-07-14,North,Tablet,David,6,"display, battery",2,False,none,simple_component_agent,21589.54286985486,103629.80577530334,Returning
+540,1304,2023-07-14,East,Mobile,Frank,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28537.14908663613,199760.0436064529,Returning
+541,1418,2023-07-15,East,Tablet,Frank,6,"display, battery",2,False,none,simple_component_agent,18882.604238486994,90636.50034473758,Returning
+542,1533,2023-07-15,North,Mobile,Eva,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27828.751758841485,166972.51055304892,Returning
+543,1743,2023-07-16,South,Headphones,Frank,5,speaker,1,False,none,simple_component_agent,2143.644703058767,10718.223515293834,New
+544,1713,2023-07-16,South,Headphones,Charlie,2,speaker,1,False,none,simple_component_agent,2000.0233036764348,4000.0466073528696,Returning
+545,1231,2023-07-17,East,Monitor,Bob,8,"panel, stand, cable",3,False,none,general_component_agent,15524.679609162466,62098.71843664986,New
+546,1220,2023-07-17,North,Laptop,Frank,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,66346.92937705042,132693.85875410083,New
+547,1946,2023-07-17,West,Tablet,David,5,"display, battery",2,False,none,simple_component_agent,21032.161684044866,84128.64673617948,New
+548,1182,2023-07-17,South,Headphones,Charlie,1,speaker,1,False,none,simple_component_agent,2104.0022179848393,2104.0022179848393,Returning
+549,1247,2023-07-18,East,Tablet,Alice,7,"display, battery",2,False,none,simple_component_agent,19250.3920996332,107802.19575794594,New
+550,1112,2023-07-20,East,Mobile,Frank,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29464.0957980617,176784.5747883702,New
+551,1704,2023-07-20,South,Monitor,Charlie,2,"panel, stand, cable",3,False,none,general_component_agent,14129.070832290603,28258.141664581206,Returning
+552,1235,2023-07-20,North,Monitor,David,6,"panel, stand, cable",3,False,none,general_component_agent,16429.683069968713,98578.09841981228,New
+553,1073,2023-07-21,North,Laptop,Eva,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,72038.43607881777,216115.30823645333,Returning
+554,1751,2023-07-21,North,Headphones,Bob,4,speaker,1,False,none,simple_component_agent,2173.817552286206,8695.270209144825,Returning
+555,1635,2023-07-21,North,Headphones,Bob,8,speaker,1,False,none,simple_component_agent,1921.3542174516533,15370.833739613226,Returning
+556,1908,2023-07-21,West,Monitor,David,3,"panel, stand, cable",3,False,none,general_component_agent,15845.672738990672,47537.018216972014,New
+557,1223,2023-07-22,South,Laptop,David,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,73722.0210143864,442332.1260863184,Returning
+558,1977,2023-07-22,East,Mobile,Alice,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31149.933911199256,218049.5373783948,Returning
+559,1666,2023-07-22,West,Headphones,Frank,7,speaker,1,False,none,simple_component_agent,2186.2555901067203,15303.789130747042,Returning
+560,1474,2023-07-23,South,Tablet,Alice,6,"display, battery",2,False,none,simple_component_agent,19574.221344425263,93956.26245324127,Returning
+561,1759,2023-07-24,South,Laptop,David,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,64830.04253025661,518640.34024205286,New
+562,1818,2023-07-24,North,Headphones,Charlie,3,speaker,1,False,none,simple_component_agent,2068.6835436976244,6206.050631092873,Returning
+563,1574,2023-07-25,West,Laptop,Frank,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,73210.3372066809,73210.3372066809,New
+564,1060,2023-07-25,East,Tablet,Alice,6,"display, battery",2,False,none,simple_component_agent,20300.24229383526,97441.16301040926,Returning
+565,1881,2023-07-26,South,Laptop,Frank,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,65895.45050386756,395372.70302320534,New
+566,1782,2023-07-26,North,Headphones,Eva,9,speaker,1,False,none,simple_component_agent,2001.7823766677423,18016.04139000968,Returning
+567,1134,2023-07-26,North,Tablet,David,6,"display, battery",2,False,none,simple_component_agent,19248.758946276517,92394.04294212729,New
+568,1296,2023-07-27,West,Mobile,Frank,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29564.799169000136,206953.59418300097,Returning
+569,1083,2023-07-27,South,Mobile,Frank,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30871.311455067986,185227.8687304079,New
+570,1275,2023-07-27,North,Tablet,Bob,7,"display, battery",2,False,none,simple_component_agent,20980.85897076334,117492.81023627472,New
+571,1705,2023-07-31,West,Monitor,David,5,"panel, stand, cable",3,False,none,general_component_agent,14196.67407270403,70983.37036352015,New
+572,1918,2023-07-31,North,Tablet,Alice,7,"display, battery",2,False,none,simple_component_agent,19621.301442587814,109879.28807849177,Returning
+573,1986,2023-07-31,South,Monitor,Bob,2,"panel, stand, cable",3,False,none,general_component_agent,14307.484712974889,28614.969425949777,New
+574,1665,2023-08-01,East,Tablet,Charlie,6,"display, battery",2,False,none,simple_component_agent,18794.526455447478,90213.7269861479,New
+575,1082,2023-08-01,North,Monitor,Bob,5,"panel, stand, cable",3,False,none,general_component_agent,15850.161659987516,79250.80829993758,New
+576,1123,2023-08-02,North,Tablet,Bob,6,"display, battery",2,False,none,simple_component_agent,21637.010777747968,103857.65173319024,New
+577,1885,2023-08-02,South,Mobile,Charlie,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29221.39311410746,204549.75179875223,Returning
+578,1864,2023-08-02,South,Headphones,David,8,speaker,1,False,none,simple_component_agent,2100.5115697495066,16804.092557996053,New
+579,1525,2023-08-03,South,Mobile,David,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32381.971736186468,259055.77388949174,New
+580,1078,2023-08-03,West,Mobile,Alice,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32076.74526318139,224537.21684226973,New
+581,1010,2023-08-03,South,Mobile,Frank,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28096.880331235356,196678.1623186475,Returning
+582,1393,2023-08-03,East,Mobile,Alice,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32737.751289080174,196426.50773448104,New
+583,1595,2023-08-03,North,Mobile,Alice,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29260.058642576776,175560.35185546067,New
+584,1889,2023-08-04,North,Laptop,Alice,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,67749.36925643371,406496.21553860226,New
+585,1118,2023-08-04,East,Mobile,David,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27374.587963666683,191622.1157456668,New
+586,1624,2023-08-05,North,Laptop,Alice,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,69806.43115746837,279225.72462987347,Returning
+587,1733,2023-08-05,South,Laptop,Charlie,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,64526.19061897301,387157.1437138381,New
+588,1088,2023-08-05,North,Laptop,Bob,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,66479.55749298396,465356.9024508877,New
+589,1557,2023-08-05,South,Headphones,Frank,6,speaker,1,False,none,simple_component_agent,1926.7770487069126,11560.662292241475,Returning
+590,1564,2023-08-05,South,Monitor,Charlie,8,"panel, stand, cable",3,False,none,general_component_agent,15926.478970475053,127411.83176380042,Returning
+591,1537,2023-08-05,East,Headphones,Charlie,4,speaker,1,False,none,simple_component_agent,2150.1954601583584,8600.781840633434,Returning
+592,1475,2023-08-06,South,Headphones,Alice,1,speaker,1,False,none,simple_component_agent,1920.986526984588,1920.986526984588,New
+593,1218,2023-08-06,North,Headphones,Frank,7,speaker,1,False,none,simple_component_agent,2143.4792484978298,15004.354739484808,Returning
+594,1130,2023-08-06,West,Mobile,Charlie,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32143.385624218747,225003.69936953124,New
+595,1070,2023-08-06,North,Headphones,Alice,6,speaker,1,False,none,simple_component_agent,2105.8603801539493,12635.162280923696,Returning
+596,1857,2023-08-06,East,Monitor,Frank,2,"panel, stand, cable",3,False,none,general_component_agent,13940.085342045546,27880.170684091092,New
+597,1643,2023-08-08,North,Monitor,Bob,9,"panel, stand, cable",3,False,none,general_component_agent,15570.968540702186,140138.71686631968,Returning
+598,1698,2023-08-08,South,Mobile,Alice,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32670.144387483415,261361.15509986732,New
+599,1332,2023-08-08,East,Mobile,Alice,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31095.242872602943,186571.45723561765,Returning
+600,1209,2023-08-08,South,Mobile,Frank,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28989.701094647007,202927.90766252906,New
+601,1967,2023-08-08,South,Monitor,Eva,5,"panel, stand, cable",3,False,none,general_component_agent,15001.737952292493,75008.68976146246,New
+602,1706,2023-08-08,West,Headphones,Charlie,5,speaker,1,False,none,simple_component_agent,2058.2900173404214,10291.450086702107,New
+603,1469,2023-08-08,North,Mobile,Frank,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30063.422452371025,180380.53471422615,New
+604,1596,2023-08-09,North,Mobile,Charlie,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27719.717650385817,194038.02355270073,New
+605,1776,2023-08-10,East,Tablet,Frank,6,"display, battery",2,False,none,simple_component_agent,19248.256178608084,92391.62965731882,New
+606,1481,2023-08-10,South,Tablet,Charlie,6,"display, battery",2,False,none,simple_component_agent,21209.58412221453,101806.00378662976,New
+607,1145,2023-08-10,West,Headphones,Charlie,3,speaker,1,False,none,simple_component_agent,2144.567218438207,6433.70165531462,New
+608,1575,2023-08-11,South,Monitor,David,4,"panel, stand, cable",3,False,none,general_component_agent,13911.900098146712,55647.60039258685,Returning
+609,1355,2023-08-11,North,Laptop,Charlie,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,76333.41453358214,229000.2436007464,New
+610,1964,2023-08-11,West,Mobile,Charlie,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28972.935707091656,231783.48565673325,New
+611,1591,2023-08-11,West,Headphones,Charlie,4,speaker,1,False,none,simple_component_agent,2064.925495492288,8259.701981969152,Returning
+612,1491,2023-08-11,South,Tablet,Eva,6,"display, battery",2,False,none,simple_component_agent,21007.300583826724,100835.04280236828,New
+613,1726,2023-08-12,South,Mobile,Eva,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31871.677407827297,223101.7418547911,Returning
+614,1212,2023-08-12,South,Headphones,Charlie,4,speaker,1,False,none,simple_component_agent,2178.299880890372,8713.199523561489,New
+615,1551,2023-08-12,West,Tablet,Charlie,6,"display, battery",2,False,none,simple_component_agent,19251.67819211529,92408.0553221534,Returning
+616,1684,2023-08-12,South,Headphones,Alice,7,speaker,1,False,none,simple_component_agent,2143.402581820622,15003.818072744354,Returning
+617,1987,2023-08-13,South,Mobile,Alice,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27790.121420617244,194530.8499443207,New
+618,1186,2023-08-13,South,Laptop,Frank,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,72870.5726889503,364352.8634447515,Returning
+619,1175,2023-08-13,West,Monitor,Charlie,4,"panel, stand, cable",3,False,none,general_component_agent,15725.933188541958,62903.73275416783,New
+620,1213,2023-08-13,West,Mobile,Eva,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31066.339447207924,217464.37613045546,New
+621,1939,2023-08-14,West,Laptop,Alice,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,66532.40630589215,598791.6567530293,New
+622,1790,2023-08-14,East,Headphones,Alice,7,speaker,1,False,none,simple_component_agent,2149.2172588060816,15044.520811642571,New
+623,1318,2023-08-14,East,Laptop,Frank,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,65364.01848718553,457548.1294102987,Returning
+624,1903,2023-08-15,East,Mobile,Frank,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27321.808749124986,191252.6612438749,New
+625,1670,2023-08-15,East,Laptop,Alice,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,73044.50986856678,292178.0394742671,Returning
+626,1125,2023-08-15,North,Laptop,Bob,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,69656.66001325827,69656.66001325827,Returning
+627,1287,2023-08-15,West,Mobile,David,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32094.58811975206,192567.52871851236,New
+628,1543,2023-08-15,South,Monitor,Charlie,1,"panel, stand, cable",3,False,none,general_component_agent,14650.191423174778,14650.191423174778,New
+629,1701,2023-08-16,East,Monitor,David,1,"panel, stand, cable",3,False,none,general_component_agent,14004.835765523138,14004.835765523138,New
+630,1926,2023-08-16,North,Headphones,Bob,5,speaker,1,False,none,simple_component_agent,2134.5768769879483,10672.884384939742,New
+631,1962,2023-08-17,South,Headphones,Alice,9,speaker,1,False,none,simple_component_agent,2019.5638526560288,18176.07467390426,Returning
+632,1439,2023-08-17,West,Laptop,Charlie,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,65648.74109346497,393892.44656078983,New
+633,1942,2023-08-17,East,Headphones,Charlie,3,speaker,1,False,none,simple_component_agent,2088.1535994345786,3132.230399151868,Returning
+634,1668,2023-08-17,North,Headphones,Bob,3,speaker,1,False,none,simple_component_agent,2004.4454553958003,6013.336366187401,New
+635,1783,2023-08-17,East,Laptop,Charlie,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,71460.38175136448,500222.67225955136,New
+636,1312,2023-08-18,North,Tablet,Charlie,4,"display, battery",2,False,none,simple_component_agent,19843.593352826327,63499.49872904425,New
+637,1605,2023-08-18,West,Mobile,David,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31972.25390290804,223805.77732035628,New
+638,1173,2023-08-19,South,Headphones,Eva,6,speaker,1,False,none,simple_component_agent,2131.82508627322,12790.950517639321,Returning
+639,1141,2023-08-19,East,Headphones,Charlie,5,speaker,1,False,none,simple_component_agent,2083.7555287297546,10418.777643648773,Returning
+640,1108,2023-08-19,South,Monitor,Eva,7,"panel, stand, cable",3,False,none,general_component_agent,13816.204132189387,96713.4289253257,New
+641,1146,2023-08-19,West,Headphones,David,1,speaker,1,False,none,simple_component_agent,2135.541544761628,2135.541544761628,Returning
+642,1911,2023-08-19,South,Headphones,Bob,7,speaker,1,False,none,simple_component_agent,2068.405192213164,14478.836345492147,Returning
+643,1337,2023-08-21,North,Monitor,Charlie,3,"panel, stand, cable",3,False,none,general_component_agent,15591.072498012902,46773.217494038705,New
+644,1271,2023-08-21,South,Headphones,David,9,speaker,1,False,none,simple_component_agent,1945.1931361615486,17506.738225453937,New
+645,1674,2023-08-21,South,Monitor,Charlie,6,"panel, stand, cable",3,False,none,general_component_agent,16137.838668471022,96827.03201082614,Returning
+646,1851,2023-08-21,North,Tablet,Eva,7,"display, battery",2,False,none,simple_component_agent,20901.486400939433,117048.32384526083,Returning
+647,1179,2023-08-21,South,Monitor,Frank,5,"panel, stand, cable",3,False,none,general_component_agent,13837.771399587584,69188.85699793792,Returning
+648,1570,2023-08-21,North,Laptop,Frank,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,68708.89248168629,480962.24737180397,Returning
+649,1194,2023-08-21,West,Mobile,David,5,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32318.282171760853,161591.41085880427,New
+650,1922,2023-08-21,South,Headphones,Alice,7,speaker,1,False,none,simple_component_agent,1818.8786806789517,12732.150764752661,New
+651,1188,2023-08-22,North,Laptop,Eva,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,76459.8326749887,76459.8326749887,Returning
+652,1597,2023-08-23,South,Monitor,Bob,7,"panel, stand, cable",3,False,none,general_component_agent,15537.487704958688,108762.41393471081,New
+653,1820,2023-08-23,East,Monitor,Bob,8,"panel, stand, cable",3,False,none,general_component_agent,15394.127932930129,123153.02346344103,Returning
+654,1931,2023-08-24,West,Monitor,Alice,5,"panel, stand, cable",3,False,none,general_component_agent,14311.677769463975,71558.38884731987,Returning
+655,1775,2023-08-24,North,Headphones,Eva,2,speaker,1,False,none,simple_component_agent,1899.516715495671,3799.033430991342,New
+656,1028,2023-08-24,East,Headphones,Bob,5,speaker,1,False,none,simple_component_agent,2176.8232877954383,5442.058219488596,Returning
+657,1455,2023-08-25,West,Laptop,Eva,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,67175.81435927772,403054.8861556663,Returning
+658,1084,2023-08-25,North,Mobile,Frank,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31653.031780314,221571.222462198,New
+659,1147,2023-08-25,West,Monitor,Bob,6,"panel, stand, cable",3,False,none,general_component_agent,14679.365394621238,88076.19236772743,New
+660,1898,2023-08-26,East,Mobile,David,6,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27835.524424708223,167013.14654824935,Returning
+661,1473,2023-08-26,East,Laptop,Frank,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,63150.014167735026,63150.014167735026,Returning
+662,1309,2023-08-26,West,Mobile,Charlie,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30265.544022091508,242124.35217673206,New
+663,1600,2023-08-27,North,Tablet,Frank,6,"display, battery",2,False,none,simple_component_agent,21903.115274195734,105134.95331613952,Returning
+664,1900,2023-08-27,West,Monitor,Frank,3,"panel, stand, cable",3,False,none,general_component_agent,14607.408581427615,43822.22574428284,Returning
+665,1865,2023-08-27,South,Monitor,Bob,4,"panel, stand, cable",3,False,none,general_component_agent,14571.577001979134,58286.30800791654,New
+666,1727,2023-08-27,North,Monitor,David,2,"panel, stand, cable",3,False,none,general_component_agent,14532.274853548328,29064.549707096656,New
+667,1448,2023-08-27,West,Mobile,Charlie,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30123.26302382915,240986.1041906332,New
+668,1232,2023-08-28,East,Laptop,Frank,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,69169.30836794012,484185.1585755808,New
+669,1707,2023-08-28,East,Laptop,Alice,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,75318.8047741782,527231.6334192475,New
+670,1822,2023-08-28,East,Tablet,Frank,5,"display, battery",2,False,none,simple_component_agent,20022.08316689396,80088.33266757586,New
+671,1142,2023-08-29,East,Mobile,Charlie,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30046.547029131412,240372.3762330513,Returning
+672,1718,2023-08-30,West,Headphones,Charlie,6,speaker,1,False,none,simple_component_agent,1855.3486378882226,11132.091827329336,Returning
+673,1523,2023-08-30,West,Tablet,Charlie,6,"display, battery",2,False,none,simple_component_agent,21930.958163641546,105268.59918547944,New
+674,1052,2023-08-30,North,Headphones,Bob,8,speaker,1,False,none,simple_component_agent,1899.989156347532,15199.913250780255,New
+675,1642,2023-08-30,East,Headphones,David,9,speaker,1,False,none,simple_component_agent,1829.3456269838412,16464.11064285457,Returning
+676,1156,2023-08-31,North,Monitor,Bob,1,"panel, stand, cable",3,False,none,general_component_agent,15489.438746925627,15489.438746925627,Returning
+677,1959,2023-08-31,South,Mobile,Bob,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30572.198220941238,244577.5857675299,Returning
+678,1040,2023-09-01,East,Laptop,Eva,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,68812.03915589844,206436.11746769532,New
+679,1371,2023-09-03,East,Mobile,Alice,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29533.153403284072,206732.0738229885,New
+680,1486,2023-09-03,South,Monitor,Frank,8,"panel, stand, cable",3,False,none,general_component_agent,15855.191763139293,126841.53410511435,Returning
+681,1221,2023-09-04,North,Headphones,Charlie,1,speaker,1,False,none,simple_component_agent,1878.2850560398597,1878.2850560398597,New
+682,1501,2023-09-04,West,Tablet,Alice,6,"display, battery",2,False,none,simple_component_agent,21281.013275779558,102148.86372374189,New
+683,1375,2023-09-04,East,Mobile,Charlie,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30892.482683370108,278032.344150331,New
+684,1803,2023-09-04,East,Monitor,Charlie,3,"panel, stand, cable",3,False,none,general_component_agent,14756.909321338573,44270.72796401572,Returning
+685,1462,2023-09-04,South,Headphones,David,6,speaker,1,False,none,simple_component_agent,1983.2114466335474,11899.268679801284,Returning
+686,1958,2023-09-04,East,Laptop,Alice,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,66593.06090060534,66593.06090060534,New
+687,1539,2023-09-06,South,Mobile,Eva,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31512.68599618185,252101.4879694548,New
+688,1824,2023-09-06,North,Monitor,Alice,1,"panel, stand, cable",3,False,none,general_component_agent,15038.624226915803,15038.624226915803,New
+689,1799,2023-09-06,South,Headphones,Bob,5,speaker,1,False,none,simple_component_agent,1928.3418170999375,9641.709085499688,New
+690,1861,2023-09-06,North,Mobile,Bob,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30576.300694565703,214034.10486195993,New
+691,1768,2023-09-07,East,Monitor,Charlie,8,"panel, stand, cable",3,False,none,general_component_agent,16487.203356153972,131897.62684923178,Returning
+692,1484,2023-09-07,North,Mobile,Eva,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29611.573677939326,236892.5894235146,New
+693,1492,2023-09-07,South,Monitor,Alice,7,"panel, stand, cable",3,False,none,general_component_agent,16262.07420233586,113834.51941635102,New
+694,1719,2023-09-08,North,Headphones,David,5,speaker,1,False,none,simple_component_agent,1938.0067359698264,9690.033679849132,New
+695,1777,2023-09-08,West,Tablet,Charlie,4,"display, battery",2,False,none,simple_component_agent,18218.930827699944,58300.57864863982,Returning
+696,1079,2023-09-09,South,Tablet,Frank,7,"display, battery",2,False,none,simple_component_agent,18816.96842547372,105375.02318265283,Returning
+697,1089,2023-09-09,North,Headphones,Eva,7,speaker,1,False,none,simple_component_agent,1967.4780573310736,13772.346401317514,New
+698,1629,2023-09-09,South,Monitor,David,1,"panel, stand, cable",3,False,none,general_component_agent,14158.904785783709,14158.904785783709,Returning
+699,1667,2023-09-09,West,Laptop,David,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,63003.17853505558,441022.24974538904,Returning
+700,1259,2023-09-09,North,Laptop,Charlie,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,75810.0215284654,379050.10764232697,Returning
+701,1242,2023-09-09,North,Headphones,Alice,1,speaker,1,False,none,simple_component_agent,2137.551764492372,2137.551764492372,Returning
+702,1789,2023-09-09,South,Laptop,Alice,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,73392.09124081726,73392.09124081726,Returning
+703,1604,2023-09-10,West,Tablet,Bob,6,"display, battery",2,False,none,simple_component_agent,18671.258382584114,89622.04023640376,Returning
+704,1027,2023-09-10,East,Laptop,Bob,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,64685.0900669398,582165.8106024582,New
+705,1879,2023-09-10,North,Laptop,Alice,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,63946.46649261336,191839.39947784008,Returning
+706,1522,2023-09-10,North,Headphones,Eva,5,speaker,1,False,none,simple_component_agent,2089.611675509169,10448.058377545844,Returning
+707,1710,2023-09-10,South,Headphones,Charlie,9,speaker,1,False,none,simple_component_agent,2171.5231842751546,19543.70865847639,New
+708,1348,2023-09-10,North,Mobile,David,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29583.214925478223,207082.50447834758,New
+709,1286,2023-09-11,North,Monitor,David,9,"panel, stand, cable",3,False,none,general_component_agent,13857.422015988144,124716.7981438933,New
+710,1266,2023-09-11,South,Headphones,Charlie,8,speaker,1,False,none,simple_component_agent,2004.9571282928428,16039.657026342742,New
+711,1480,2023-09-11,North,Monitor,Eva,8,"panel, stand, cable",3,False,none,general_component_agent,14546.495722375892,116371.96577900714,Returning
+712,1226,2023-09-12,East,Laptop,Bob,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,68247.54894089997,68247.54894089997,Returning
+713,1131,2023-09-12,South,Headphones,David,9,speaker,1,False,none,simple_component_agent,2048.532249662283,18436.790246960547,Returning
+714,1780,2023-09-12,West,Monitor,Charlie,6,"panel, stand, cable",3,False,none,general_component_agent,15656.154339786608,93936.92603871966,Returning
+715,1350,2023-09-13,East,Monitor,Frank,9,"panel, stand, cable",3,False,none,general_component_agent,13831.810796619482,124486.29716957534,New
+716,1712,2023-09-13,North,Monitor,Bob,3,"panel, stand, cable",3,False,none,general_component_agent,13606.77069241943,40820.31207725829,Returning
+717,1875,2023-09-14,West,Monitor,Frank,3,"panel, stand, cable",3,False,none,general_component_agent,16482.990908057145,49448.972724171435,Returning
+718,1128,2023-09-14,North,Mobile,Alice,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28396.37009349331,198774.59065445318,New
+719,1495,2023-09-14,North,Mobile,David,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27322.983149450756,191260.88204615528,Returning
+720,1502,2023-09-15,North,Headphones,Eva,7,speaker,1,False,none,simple_component_agent,1875.950131638368,13131.650921468576,Returning
+721,1019,2023-09-15,North,Monitor,Eva,3,"panel, stand, cable",3,False,none,general_component_agent,13616.873539045393,40850.62061713618,Returning
+722,1240,2023-09-16,South,Monitor,Bob,3,"panel, stand, cable",3,False,none,general_component_agent,14675.432683851515,44026.29805155455,Returning
+723,1180,2023-09-16,East,Headphones,Frank,2,speaker,1,False,none,simple_component_agent,2120.96071378053,4241.92142756106,New
+724,1771,2023-09-16,East,Tablet,Charlie,6,"display, battery",2,False,none,simple_component_agent,19364.977799030883,92951.89343534825,New
+725,1680,2023-09-16,West,Headphones,David,3,speaker,1,False,none,simple_component_agent,1977.6733627513468,5933.02008825404,New
+726,1747,2023-09-16,North,Mobile,Alice,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31053.520641404633,217374.64448983243,New
+727,1760,2023-09-17,North,Tablet,David,6,"display, battery",2,False,none,simple_component_agent,20035.57628027952,96170.76614534171,New
+728,1067,2023-09-17,South,Headphones,Bob,8,speaker,1,False,none,simple_component_agent,2144.57827440853,17156.62619526824,Returning
+729,1107,2023-09-18,West,Laptop,Alice,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,75124.49945064061,150248.99890128121,Returning
+730,1419,2023-09-19,South,Mobile,David,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27059.464172946922,189416.24921062845,New
+731,1816,2023-09-19,South,Laptop,Frank,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,73892.64829076479,147785.29658152958,New
+732,1258,2023-09-20,East,Monitor,Frank,8,"panel, stand, cable",3,False,none,general_component_agent,14882.200800725022,119057.60640580018,New
+733,1528,2023-09-21,East,Monitor,David,6,"panel, stand, cable",3,False,none,general_component_agent,16466.52162391099,98799.12974346595,Returning
+734,1930,2023-09-21,South,Tablet,Bob,5,"display, battery",2,False,none,simple_component_agent,19932.928303501743,39865.85660700349,New
+735,1315,2023-09-21,South,Mobile,Alice,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32921.37567232979,296292.38105096814,Returning
+736,1058,2023-09-21,West,Mobile,Eva,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31527.41616723442,252219.32933787536,Returning
+737,1412,2023-09-21,North,Headphones,Eva,4,speaker,1,False,none,simple_component_agent,1899.4419538453226,7597.76781538129,Returning
+738,1386,2023-09-21,West,Headphones,Eva,4,speaker,1,False,none,simple_component_agent,2015.357991714783,8061.431966859132,Returning
+739,1572,2023-09-22,North,Monitor,Alice,9,"panel, stand, cable",3,False,none,general_component_agent,16476.40691843575,148287.66226592177,New
+740,1053,2023-09-22,West,Laptop,Eva,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,75005.42850852694,75005.42850852694,Returning
+741,1729,2023-09-24,East,Monitor,Alice,2,"panel, stand, cable",3,False,none,general_component_agent,13792.100681373662,27584.201362747324,Returning
+742,1254,2023-09-24,East,Tablet,Alice,6,"display, battery",2,False,none,simple_component_agent,20825.487987239987,99962.34233875194,New
+743,1773,2023-09-25,North,Tablet,Alice,5,"display, battery",2,False,none,simple_component_agent,19382.318343483254,77529.27337393303,Returning
+744,1114,2023-09-25,North,Mobile,Frank,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27041.89357128209,216335.14857025672,Returning
+745,1199,2023-09-25,West,Tablet,Charlie,6,"display, battery",2,False,none,simple_component_agent,19613.923876107998,94146.83460531839,Returning
+746,1511,2023-09-25,West,Laptop,Eva,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,66286.5619041496,198859.6857124488,New
+747,1553,2023-09-25,East,Headphones,Bob,3,speaker,1,False,none,simple_component_agent,2127.547708208189,6382.643124624567,Returning
+748,1427,2023-09-26,South,Laptop,Alice,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,67722.62852384071,406335.7711430443,Returning
+749,1074,2023-09-27,South,Laptop,Bob,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,74585.33171535344,596682.6537228276,New
+750,1077,2023-09-28,East,Monitor,Charlie,7,"panel, stand, cable",3,False,none,general_component_agent,13501.793816504387,94512.5567155307,New
+751,1409,2023-09-28,West,Tablet,Frank,4,"display, battery",2,False,none,simple_component_agent,19231.276600104477,61540.085120334326,Returning
+752,1003,2023-09-28,North,Monitor,Alice,4,"panel, stand, cable",3,False,none,general_component_agent,14223.495642923286,56893.982571693145,Returning
+753,1034,2023-09-28,West,Headphones,Alice,2,speaker,1,False,none,simple_component_agent,1893.4269444274446,3786.853888854889,New
+754,1685,2023-09-29,North,Monitor,Eva,1,"panel, stand, cable",3,False,none,general_component_agent,13704.559859296389,13704.559859296389,Returning
+755,1456,2023-09-29,South,Mobile,Frank,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28122.74562246301,224981.9649797041,New
+756,1812,2023-09-30,East,Laptop,Alice,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,70777.69397839867,141555.38795679735,Returning
+757,1368,2023-09-30,North,Laptop,Alice,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,67079.05501972843,536632.4401578275,New
+758,1910,2023-09-30,East,Headphones,Charlie,9,speaker,1,False,none,simple_component_agent,1966.9579129316592,17702.621216384934,Returning
+759,1561,2023-09-30,South,Headphones,Frank,4,speaker,1,False,none,simple_component_agent,1950.7467521388755,7802.987008555502,New
+760,1048,2023-10-01,West,Headphones,Eva,8,speaker,1,False,none,simple_component_agent,2150.361969999958,17202.895759999665,New
+761,1901,2023-10-01,North,Headphones,Bob,9,speaker,1,False,none,simple_component_agent,2162.1195996042065,19459.07639643786,New
+762,1435,2023-10-02,West,Mobile,Eva,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29957.741829935163,209704.19280954613,New
+763,1985,2023-10-02,North,Laptop,Eva,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,67622.18330441846,473355.2831309292,New
+764,1630,2023-10-02,West,Mobile,Frank,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27640.804224014184,221126.43379211347,Returning
+765,1945,2023-10-04,North,Headphones,Bob,1,speaker,1,False,none,simple_component_agent,2181.3611517528384,2181.3611517528384,Returning
+766,1538,2023-10-04,South,Headphones,Charlie,3,speaker,1,False,none,simple_component_agent,1824.0907779601189,5472.272333880357,New
+767,1023,2023-10-04,East,Headphones,Eva,5,speaker,1,False,none,simple_component_agent,1919.0601110273121,9595.30055513656,Returning
+768,1301,2023-10-04,North,Mobile,Bob,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28788.397207020025,100759.39022457009,Returning
+769,1319,2023-10-04,South,Headphones,Frank,7,speaker,1,False,none,simple_component_agent,1928.160514456086,13497.123601192603,Returning
+770,1842,2023-10-04,East,Mobile,David,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27985.721059634456,223885.76847707565,Returning
+771,1460,2023-10-05,North,Mobile,Frank,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31698.968585542185,221892.7800987953,Returning
+772,1556,2023-10-06,North,Headphones,Charlie,1,speaker,1,False,none,simple_component_agent,1848.9991447863958,1848.9991447863958,Returning
+773,1442,2023-10-06,South,Mobile,Bob,10,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30809.43995491898,308094.3995491898,New
+774,1499,2023-10-07,West,Tablet,David,5,"display, battery",2,False,none,simple_component_agent,18495.38410682327,73981.53642729307,Returning
+775,1339,2023-10-07,East,Monitor,Frank,5,"panel, stand, cable",3,False,none,general_component_agent,13711.60691277887,68558.03456389435,Returning
+776,1228,2023-10-07,North,Mobile,David,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32456.57702211526,292109.19319903734,Returning
+777,1087,2023-10-07,East,Laptop,Alice,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,65661.80272846189,328309.01364230947,New
+778,1361,2023-10-07,West,Monitor,David,5,"panel, stand, cable",3,False,none,general_component_agent,15963.750463679115,79818.75231839558,Returning
+779,1354,2023-10-08,East,Tablet,Alice,5,"display, battery",2,False,none,simple_component_agent,20178.523484428544,40357.04696885709,Returning
+780,1832,2023-10-08,North,Monitor,David,6,"panel, stand, cable",3,False,none,general_component_agent,13733.569558826308,82401.41735295785,Returning
+781,1860,2023-10-09,East,Monitor,Bob,8,"panel, stand, cable",3,False,none,general_component_agent,16366.344574314204,130930.75659451363,New
+782,1937,2023-10-09,East,Monitor,David,8,"panel, stand, cable",3,False,none,general_component_agent,14240.883500975679,113927.06800780543,Returning
+783,1731,2023-10-09,North,Laptop,David,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,75035.0348349365,675315.3135144284,New
+784,1611,2023-10-10,East,Mobile,David,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28012.860034707388,224102.8802776591,Returning
+785,1133,2023-10-10,South,Tablet,Bob,5,"display, battery",2,False,none,simple_component_agent,21415.771528567413,85663.08611426967,New
+786,1176,2023-10-10,East,Mobile,Eva,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27079.372877431764,243714.35589688589,New
+787,1736,2023-10-10,North,Mobile,Bob,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30070.682739416887,240565.4619153351,New
+788,1316,2023-10-10,West,Laptop,Frank,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,73772.1961119018,147544.3922238036,Returning
+789,1322,2023-10-11,East,Headphones,Frank,3,speaker,1,False,none,simple_component_agent,2173.918206997114,6521.754620991342,New
+790,1164,2023-10-11,South,Tablet,Eva,5,"display, battery",2,False,none,simple_component_agent,21636.80854482595,86547.2341793038,New
+791,1573,2023-10-11,East,Mobile,Alice,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31917.749217285873,287259.74295557284,New
+792,1158,2023-10-11,East,Headphones,David,1,speaker,1,False,none,simple_component_agent,2155.2765398645215,2155.2765398645215,New
+793,1468,2023-10-12,North,Headphones,Alice,6,speaker,1,False,none,simple_component_agent,1879.6878743348307,11278.127246008984,Returning
+794,1808,2023-10-12,West,Mobile,Frank,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28705.105774270374,229640.846194163,Returning
+795,1518,2023-10-12,South,Headphones,Frank,3,speaker,1,False,none,simple_component_agent,1915.5874099684236,5746.762229905271,Returning
+796,1560,2023-10-13,East,Monitor,Alice,6,"panel, stand, cable",3,False,none,general_component_agent,14631.161793005098,87786.97075803058,Returning
+797,1717,2023-10-13,North,Mobile,Alice,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29359.924022311134,264239.3162008002,New
+798,1169,2023-10-13,East,Tablet,Frank,5,"display, battery",2,False,none,simple_component_agent,20178.221298618704,80712.88519447483,Returning
+799,1795,2023-10-13,North,Mobile,Eva,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27959.278580198647,251633.50722178782,New
+800,1320,2023-10-13,North,Tablet,Alice,4,"display, battery",2,False,none,simple_component_agent,20764.98665514396,66447.95729646068,Returning
+801,1761,2023-10-15,North,Laptop,Frank,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,65345.93155026309,457421.52085184166,Returning
+802,1363,2023-10-15,East,Headphones,Bob,6,speaker,1,False,none,simple_component_agent,1924.1233928418192,11544.740357050916,Returning
+803,1392,2023-10-15,South,Tablet,Charlie,5,"display, battery",2,False,none,simple_component_agent,20013.380522424617,80053.52208969847,New
+804,1106,2023-10-16,East,Laptop,Charlie,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,74150.1678613287,370750.83930664347,Returning
+805,1943,2023-10-16,North,Laptop,Alice,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,73352.56926534219,293410.27706136875,Returning
+806,1300,2023-10-16,West,Headphones,Charlie,7,speaker,1,False,none,simple_component_agent,2058.213742564209,14407.496197949464,Returning
+807,1723,2023-10-16,East,Monitor,Bob,7,"panel, stand, cable",3,False,none,general_component_agent,13967.31978174051,97771.23847218357,New
+808,1479,2023-10-16,West,Laptop,Alice,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,70658.63483861809,423951.8090317085,Returning
+809,1449,2023-10-17,North,Laptop,Frank,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,64224.2510251984,513794.0082015872,Returning
+810,1489,2023-10-17,East,Laptop,Eva,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,68283.08447515311,273132.33790061245,New
+811,1627,2023-10-19,East,Monitor,Bob,5,"panel, stand, cable",3,False,none,general_component_agent,14740.54959086988,73702.7479543494,New
+812,1874,2023-10-19,South,Mobile,Charlie,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27238.868636674524,245149.81773007073,Returning
+813,1997,2023-10-20,West,Laptop,Alice,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,66835.8333925796,66835.8333925796,Returning
+814,1119,2023-10-20,West,Headphones,Frank,8,speaker,1,False,none,simple_component_agent,2182.259786906596,17458.07829525277,Returning
+815,1227,2023-10-21,North,Headphones,David,1,speaker,1,False,none,simple_component_agent,2181.4530431318763,2181.4530431318763,New
+816,1902,2023-10-21,North,Headphones,David,5,speaker,1,False,none,simple_component_agent,1940.9308217010157,9704.654108505078,New
+817,1021,2023-10-21,North,Headphones,David,6,speaker,1,False,none,simple_component_agent,1817.2400435793297,10903.440261475978,New
+818,1791,2023-10-21,South,Headphones,Charlie,6,speaker,1,False,none,simple_component_agent,1871.6379757312727,11229.827854387637,Returning
+819,1200,2023-10-22,North,Mobile,Eva,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29353.30676060124,264179.76084541116,New
+820,1081,2023-10-23,East,Laptop,Alice,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,76268.91577156923,228806.74731470767,Returning
+821,1256,2023-10-25,East,Monitor,David,5,"panel, stand, cable",3,False,none,general_component_agent,13923.597190611556,69617.98595305778,New
+822,1370,2023-10-26,North,Headphones,Frank,8,speaker,1,False,none,simple_component_agent,2105.406337467285,16843.25069973828,New
+823,1914,2023-10-27,North,Headphones,Bob,2,speaker,1,False,none,simple_component_agent,1843.4730157498768,3686.9460314997536,New
+824,1980,2023-10-27,West,Tablet,Eva,4,"display, battery",2,False,none,simple_component_agent,21925.03030956511,70160.09699060836,Returning
+825,1858,2023-10-28,South,Headphones,Bob,9,speaker,1,False,none,simple_component_agent,1952.646599643654,17573.819396792886,Returning
+826,1625,2023-10-28,North,Laptop,Frank,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,73853.28354458678,590826.2683566943,Returning
+827,1094,2023-10-28,South,Laptop,Bob,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,67796.27515935585,542370.2012748468,Returning
+828,1341,2023-10-29,West,Laptop,Eva,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,71787.36428022332,574298.9142417866,New
+829,1521,2023-10-29,East,Monitor,Bob,7,"panel, stand, cable",3,False,none,general_component_agent,14076.048254220112,98532.33777954079,Returning
+830,1781,2023-10-30,West,Mobile,David,7,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27876.126115781775,195132.88281047242,New
+831,1662,2023-10-30,South,Monitor,Bob,6,"panel, stand, cable",3,False,none,general_component_agent,16314.192418704395,97885.15451222638,Returning
+832,1714,2023-10-30,North,Monitor,David,2,"panel, stand, cable",3,False,none,general_component_agent,16252.941833713301,32505.883667426602,Returning
+833,1882,2023-10-30,East,Headphones,Eva,2,speaker,1,False,none,simple_component_agent,2154.9875760851533,4309.9751521703065,New
+834,1302,2023-10-31,South,Mobile,Frank,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30752.600700999566,246020.80560799653,New
+835,1274,2023-10-31,North,Laptop,David,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,74315.7549570279,74315.7549570279,Returning
+836,1076,2023-10-31,West,Monitor,Bob,6,"panel, stand, cable",3,False,none,general_component_agent,13707.110810734124,82242.66486440474,Returning
+837,1324,2023-10-31,South,Laptop,Charlie,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,67687.04658646951,406122.2795188171,New
+838,1265,2023-10-31,East,Monitor,Bob,4,"panel, stand, cable",3,False,none,general_component_agent,14441.10937427147,57764.43749708588,New
+839,1405,2023-11-01,North,Tablet,Eva,5,"display, battery",2,False,none,simple_component_agent,20542.58128781045,82170.3251512418,New
+840,1675,2023-11-01,East,Headphones,Frank,3,speaker,1,False,none,simple_component_agent,1942.3831093882561,5827.149328164768,New
+841,1772,2023-11-02,South,Headphones,Bob,1,speaker,1,False,none,simple_component_agent,1859.4027126574724,1859.4027126574724,New
+842,1378,2023-11-02,East,Monitor,Eva,3,"panel, stand, cable",3,False,none,general_component_agent,15289.401226240632,45868.2036787219,Returning
+843,1792,2023-11-02,North,Laptop,Frank,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,74401.37488936714,297605.4995574686,Returning
+844,1187,2023-11-03,North,Tablet,Alice,5,"display, battery",2,False,none,simple_component_agent,19528.493977839895,78113.97591135958,Returning
+845,1043,2023-11-03,West,Mobile,David,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27793.612290590892,250142.51061531802,Returning
+846,1248,2023-11-04,West,Headphones,Charlie,6,speaker,1,False,none,simple_component_agent,1878.6752789251293,11272.051673550775,New
+847,1798,2023-11-04,West,Monitor,Eva,5,"panel, stand, cable",3,False,none,general_component_agent,14212.449915508152,71062.24957754076,New
+848,1425,2023-11-04,North,Headphones,Bob,3,speaker,1,False,none,simple_component_agent,1919.9590371978145,5759.877111593443,New
+849,1018,2023-11-05,East,Monitor,Alice,6,"panel, stand, cable",3,False,none,general_component_agent,15428.38521151893,92570.31126911358,Returning
+850,1068,2023-11-06,South,Laptop,Alice,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,71413.23678352806,428479.42070116836,New
+851,1294,2023-11-06,East,Laptop,Charlie,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,72745.11806193856,581960.9444955084,New
+852,1956,2023-11-07,East,Headphones,Charlie,2,speaker,1,False,none,simple_component_agent,1945.0007938126053,3890.0015876252105,Returning
+853,1424,2023-11-07,West,Monitor,Bob,1,"panel, stand, cable",3,False,none,general_component_agent,15971.992955639938,15971.992955639938,Returning
+854,1741,2023-11-07,West,Mobile,Frank,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28224.52596693456,254020.73370241106,Returning
+855,1716,2023-11-08,South,Headphones,Eva,7,speaker,1,False,none,simple_component_agent,1987.6162990072617,13913.31409305083,New
+856,1653,2023-11-08,South,Laptop,Charlie,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,74213.14210158003,222639.42630474007,New
+857,1894,2023-11-08,West,Tablet,Bob,3,"display, battery",2,False,none,simple_component_agent,18720.63459093048,44929.52301823316,Returning
+858,1778,2023-11-09,West,Mobile,Bob,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27659.178682444697,221273.42945955758,Returning
+859,1381,2023-11-09,South,Headphones,David,5,speaker,1,False,none,simple_component_agent,2153.473587075196,10767.36793537598,New
+860,1402,2023-11-10,North,Laptop,Charlie,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,67801.01527862875,203403.04583588627,Returning
+861,1025,2023-11-10,West,Tablet,Charlie,4,"display, battery",2,False,none,simple_component_agent,20735.48049963613,66353.53759883562,New
+862,1534,2023-11-10,East,Laptop,Alice,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,63354.88045969514,253419.52183878055,Returning
+863,1191,2023-11-11,West,Monitor,Frank,3,"panel, stand, cable",3,False,none,general_component_agent,15570.14066522835,46710.42199568505,Returning
+864,1735,2023-11-11,East,Laptop,Eva,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,67425.41836165759,134850.83672331518,Returning
+865,1940,2023-11-11,North,Laptop,Alice,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,63780.37195022418,287011.6737760088,New
+866,1380,2023-11-12,West,Mobile,Eva,11,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30658.876569288703,337247.64226217574,New
+867,1695,2023-11-12,East,Laptop,Eva,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,66371.25342502444,199113.7602750733,Returning
+868,1050,2023-11-12,West,Headphones,Eva,7,speaker,1,False,none,simple_component_agent,1954.722896820752,13683.060277745264,New
+869,1647,2023-11-13,South,Tablet,Charlie,4,"display, battery",2,False,none,simple_component_agent,18322.323249146055,58631.43439726738,Returning
+870,1661,2023-11-13,North,Tablet,Eva,4,"display, battery",2,False,none,simple_component_agent,18588.653004379783,29741.844807007656,Returning
+871,1846,2023-11-13,South,Tablet,Charlie,4,"display, battery",2,False,none,simple_component_agent,19191.908941983376,61414.108614346806,New
+872,1323,2023-11-13,East,Laptop,Charlie,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,64256.6330078422,321283.16503921105,New
+873,1952,2023-11-14,North,Laptop,Charlie,5,"processor, ram, ssd, battery",4,False,none,general_component_agent,75751.56770560842,378757.83852804214,New
+874,1441,2023-11-14,South,Monitor,David,3,"panel, stand, cable",3,False,none,general_component_agent,13518.141129551936,40554.42338865581,New
+875,1184,2023-11-14,West,Headphones,David,5,speaker,1,False,none,simple_component_agent,1993.5440875457246,9967.720437728623,Returning
+876,1197,2023-11-14,West,Mobile,Bob,10,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,27739.48474879531,277394.8474879531,New
+877,1434,2023-11-15,East,Monitor,Alice,4,"panel, stand, cable",3,False,none,general_component_agent,14423.037268433845,57692.14907373538,New
+878,1869,2023-11-15,North,Tablet,David,5,"display, battery",2,False,none,simple_component_agent,21704.238239273065,86816.95295709226,Returning
+879,1938,2023-11-16,South,Headphones,Charlie,1,speaker,1,False,none,simple_component_agent,1864.677821309595,1864.677821309595,Returning
+880,1995,2023-11-16,North,Laptop,Charlie,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,76521.65247605667,306086.6099042267,Returning
+881,1041,2023-11-16,North,Mobile,Bob,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28234.76626193653,254112.89635742875,Returning
+882,1620,2023-11-17,West,Monitor,Charlie,9,"panel, stand, cable",3,False,none,general_component_agent,15724.69832540049,70761.1424643022,New
+883,1385,2023-11-17,East,Laptop,Alice,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,70653.48170856238,141306.96341712476,New
+884,1391,2023-11-18,North,Headphones,David,7,speaker,1,False,none,simple_component_agent,2153.791491038704,15076.540437270927,Returning
+885,1966,2023-11-18,East,Tablet,Bob,6,"display, battery",2,False,none,simple_component_agent,20215.973022012524,97036.67050566012,Returning
+886,1358,2023-11-19,North,Laptop,Alice,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,70483.82906818834,140967.65813637667,New
+887,1512,2023-11-19,South,Laptop,Alice,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,65736.4120051576,525891.2960412608,New
+888,1351,2023-11-19,West,Laptop,Charlie,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,65327.21106872322,457290.4774810625,New
+889,1984,2023-11-20,South,Headphones,David,5,speaker,1,False,none,simple_component_agent,2166.595660446206,10832.97830223103,New
+890,1222,2023-11-20,South,Mobile,David,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28967.029193100203,260703.26273790182,New
+891,1487,2023-11-21,South,Monitor,Charlie,7,"panel, stand, cable",3,False,none,general_component_agent,14616.246764888689,102313.72735422081,Returning
+892,1496,2023-11-21,East,Monitor,Eva,9,"panel, stand, cable",3,False,none,general_component_agent,15779.470975285165,142015.2387775665,Returning
+893,1229,2023-11-21,East,Tablet,Alice,5,"display, battery",2,False,none,simple_component_agent,19355.29392969123,77421.17571876492,Returning
+894,1982,2023-11-22,North,Monitor,Charlie,9,"panel, stand, cable",3,False,none,general_component_agent,16356.187339917009,147205.6860592531,Returning
+895,1848,2023-11-22,East,Tablet,Frank,4,"display, battery",2,False,none,simple_component_agent,20951.7110759952,67045.47544318465,New
+896,1238,2023-11-22,North,Tablet,Eva,5,"display, battery",2,False,none,simple_component_agent,20389.71697029368,81558.86788117472,Returning
+897,1408,2023-11-22,North,Monitor,Charlie,3,"panel, stand, cable",3,False,none,general_component_agent,16142.685481634258,48428.05644490277,New
+898,1097,2023-11-23,West,Headphones,Charlie,1,speaker,1,False,none,simple_component_agent,1819.842363339793,1819.842363339793,New
+899,1623,2023-11-23,South,Tablet,Alice,4,"display, battery",2,False,none,simple_component_agent,19028.250768756836,60890.402460021876,New
+900,1154,2023-11-23,West,Monitor,Alice,4,"panel, stand, cable",3,False,none,general_component_agent,14895.109002662732,59580.43601065093,New
+901,1113,2023-11-24,North,Mobile,David,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28361.871236829127,255256.84113146213,New
+902,1046,2023-11-25,North,Laptop,Eva,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,73414.67262223014,587317.3809778411,New
+903,1811,2023-11-26,North,Laptop,Bob,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,75868.91243475217,455213.47460851306,New
+904,1683,2023-11-26,North,Tablet,Alice,4,"display, battery",2,False,none,simple_component_agent,19695.080479723696,63024.25753511583,Returning
+905,1515,2023-11-26,West,Headphones,Bob,2,speaker,1,False,none,simple_component_agent,1936.853040044758,3873.706080089516,New
+906,1011,2023-11-27,West,Mobile,David,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32769.3043928254,294923.7395354286,Returning
+907,1951,2023-11-27,West,Laptop,Eva,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,69227.93405958558,138455.86811917115,Returning
+908,1598,2023-11-27,North,Tablet,Charlie,4,"display, battery",2,False,none,simple_component_agent,19956.193601797135,63859.819525750834,New
+909,1170,2023-11-27,South,Monitor,Alice,2,"panel, stand, cable",3,False,none,general_component_agent,14554.949617025717,29109.899234051434,New
+910,2000,2023-11-29,West,Headphones,Eva,1,speaker,1,False,none,simple_component_agent,2163.8193892048557,2163.8193892048557,Returning
+911,1970,2023-12-01,South,Monitor,Eva,7,"panel, stand, cable",3,False,none,general_component_agent,15206.866449845553,106448.06514891887,Returning
+912,1976,2023-12-01,West,Tablet,David,3,"display, battery",2,False,none,simple_component_agent,21048.69834872658,25258.438018471894,Returning
+913,1796,2023-12-01,South,Mobile,Eva,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31870.84031010532,286837.56279094785,Returning
+914,1801,2023-12-01,North,Tablet,Eva,4,"display, battery",2,False,none,simple_component_agent,19367.396167669034,61975.66773654091,New
+915,1500,2023-12-02,South,Headphones,Eva,6,speaker,1,False,none,simple_component_agent,1973.477732528152,11840.866395168912,New
+916,1827,2023-12-02,East,Laptop,Eva,3,"processor, ram, ssd, battery",4,False,none,general_component_agent,74878.6048416877,224635.8145250631,New
+917,1526,2023-12-03,North,Tablet,Alice,5,"display, battery",2,False,none,simple_component_agent,19453.021406703243,77812.08562681299,Returning
+918,1872,2023-12-03,North,Tablet,Frank,4,"display, battery",2,False,none,simple_component_agent,21175.740533807406,67762.3697081837,New
+919,1292,2023-12-04,South,Mobile,Eva,10,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32645.95393544662,326459.5393544662,Returning
+920,1794,2023-12-04,North,Laptop,Charlie,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,71724.94522295211,71724.94522295211,New
+921,1251,2023-12-04,East,Headphones,Charlie,6,speaker,1,False,none,simple_component_agent,2096.6509149807557,12579.905489884535,Returning
+922,1085,2023-12-04,East,Tablet,Frank,4,"display, battery",2,False,none,simple_component_agent,21220.389248164538,67905.24559412652,New
+923,1577,2023-12-05,East,Tablet,Frank,4,"display, battery",2,False,none,simple_component_agent,21380.158595586574,68416.50750587705,New
+924,1617,2023-12-05,North,Laptop,David,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,68530.74672999515,411184.4803799709,Returning
+925,1285,2023-12-06,East,Headphones,Frank,8,speaker,1,False,none,simple_component_agent,1820.5053836703992,14564.043069363193,Returning
+926,1504,2023-12-06,North,Mobile,David,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29411.25762742044,264701.31864678394,Returning
+927,1056,2023-12-06,North,Monitor,Charlie,6,"panel, stand, cable",3,False,none,general_component_agent,15521.26868935227,93127.61213611362,Returning
+928,1813,2023-12-06,South,Tablet,Charlie,5,"display, battery",2,False,none,simple_component_agent,19801.40154312317,79205.60617249268,Returning
+929,1168,2023-12-06,West,Tablet,Charlie,3,"display, battery",2,False,none,simple_component_agent,20995.852603441595,50390.04624825983,New
+930,1730,2023-12-07,West,Laptop,Eva,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,67997.7540125613,543982.0321004904,Returning
+931,1476,2023-12-07,West,Mobile,Eva,10,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30808.464846624178,308084.6484662418,New
+932,1784,2023-12-07,South,Laptop,Alice,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,65609.87726795564,262439.50907182257,New
+933,1404,2023-12-08,West,Tablet,David,5,"display, battery",2,False,none,simple_component_agent,20997.47774657983,83989.91098631932,New
+934,1565,2023-12-08,North,Headphones,Alice,7,speaker,1,False,none,simple_component_agent,2018.2783875252105,14127.948712676474,New
+935,1394,2023-12-08,East,Headphones,Bob,7,speaker,1,False,none,simple_component_agent,1881.6257554186402,13171.380287930482,New
+936,1364,2023-12-08,East,Monitor,Alice,8,"panel, stand, cable",3,False,none,general_component_agent,14375.733520493422,115005.86816394738,Returning
+937,1621,2023-12-08,East,Headphones,Frank,5,speaker,1,False,none,simple_component_agent,2099.443483432733,5248.608708581833,Returning
+938,1734,2023-12-08,North,Laptop,Charlie,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,69756.4172992613,488294.9210948291,New
+939,1211,2023-12-09,North,Mobile,Eva,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28296.188642358436,254665.69778122593,New
+940,1099,2023-12-10,East,Laptop,Frank,9,"processor, ram, ssd, battery",4,False,none,general_component_agent,76541.79666518417,688876.1699866576,Returning
+941,1020,2023-12-10,North,Tablet,Frank,4,"display, battery",2,False,none,simple_component_agent,20860.500079267553,66753.60025365617,Returning
+942,1029,2023-12-11,South,Headphones,Charlie,3,speaker,1,False,none,simple_component_agent,2182.8539330159183,6548.561799047755,New
+943,1096,2023-12-11,North,Laptop,Bob,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,68979.47063504481,275917.88254017924,Returning
+944,1261,2023-12-12,East,Headphones,Alice,5,speaker,1,False,none,simple_component_agent,1990.0401362766881,9950.200681383441,Returning
+945,1054,2023-12-12,East,Laptop,Alice,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,75571.37302659027,75571.37302659027,Returning
+946,1243,2023-12-12,North,Laptop,Eva,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,70350.69076343538,492454.8353440477,New
+947,1136,2023-12-12,South,Headphones,Frank,9,speaker,1,False,none,simple_component_agent,2082.911564762267,18746.204082860404,Returning
+948,1438,2023-12-12,West,Headphones,Bob,8,speaker,1,False,none,simple_component_agent,1900.869150998212,15206.953207985696,New
+949,1853,2023-12-12,East,Monitor,Eva,5,"panel, stand, cable",3,False,none,general_component_agent,14840.179406107922,74200.8970305396,New
+950,1636,2023-12-12,South,Headphones,Eva,4,speaker,1,False,none,simple_component_agent,1849.379946324142,7397.519785296568,New
+951,1797,2023-12-13,East,Mobile,Frank,8,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28235.88021526177,225887.04172209417,New
+952,1650,2023-12-14,North,Tablet,Charlie,4,"display, battery",2,False,none,simple_component_agent,18003.773661070525,57612.075715425686,New
+953,1690,2023-12-14,North,Monitor,Charlie,7,"panel, stand, cable",3,False,none,general_component_agent,13617.795154945981,95324.56608462187,Returning
+954,1172,2023-12-14,West,Laptop,Alice,1,"processor, ram, ssd, battery",4,False,none,general_component_agent,76681.97352447701,76681.97352447701,New
+955,1763,2023-12-14,East,Tablet,David,3,"display, battery",2,False,none,simple_component_agent,18969.41478054705,45526.59547331292,New
+956,1340,2023-12-15,East,Monitor,Frank,3,"panel, stand, cable",3,False,none,general_component_agent,15489.932128512006,46469.796385536014,New
+957,1239,2023-12-15,North,Mobile,David,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,32034.59819279767,144155.6918675895,Returning
+958,1291,2023-12-15,South,Laptop,David,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,70709.2464293119,141418.4928586238,Returning
+959,1461,2023-12-15,South,Tablet,Charlie,4,"display, battery",2,False,none,simple_component_agent,18612.578000335827,59560.24960107465,Returning
+960,1002,2023-12-15,East,Headphones,David,2,speaker,1,False,none,simple_component_agent,2091.2465749344665,4182.493149868933,Returning
+961,1953,2023-12-16,East,Headphones,Alice,4,speaker,1,False,none,simple_component_agent,2040.1005640398332,8160.402256159333,Returning
+962,1867,2023-12-16,West,Laptop,Bob,2,"processor, ram, ssd, battery",4,False,none,general_component_agent,73237.50825086326,73237.50825086326,Returning
+963,1421,2023-12-16,East,Mobile,Charlie,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31618.479737142527,284566.31763428275,Returning
+964,1950,2023-12-16,West,Monitor,Charlie,8,"panel, stand, cable",3,False,none,general_component_agent,16426.231103054237,131409.8488244339,New
+965,1075,2023-12-17,West,Headphones,David,4,speaker,1,False,none,simple_component_agent,2029.4253120106841,8117.701248042737,New
+966,1744,2023-12-17,North,Monitor,Charlie,5,"panel, stand, cable",3,False,none,general_component_agent,14524.923338071807,72624.61669035903,Returning
+967,1140,2023-12-18,North,Laptop,Bob,4,"processor, ram, ssd, battery",4,False,none,general_component_agent,72078.50379660333,288314.0151864133,New
+968,1834,2023-12-18,East,Headphones,Alice,3,speaker,1,False,none,simple_component_agent,1827.3762836970504,5482.128851091151,New
+969,1246,2023-12-18,East,Headphones,Bob,5,speaker,1,False,none,simple_component_agent,2158.9589273286347,10794.794636643173,Returning
+970,1390,2023-12-20,South,Headphones,Alice,9,speaker,1,False,none,simple_component_agent,1847.7524045352786,16629.771640817507,New
+971,1558,2023-12-21,East,Laptop,Bob,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,67589.79973040146,540718.3978432117,New
+972,1878,2023-12-21,South,Mobile,Alice,11,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31894.472283756728,350839.195121324,Returning
+973,1423,2023-12-21,West,Laptop,David,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,71362.37329662996,570898.9863730397,New
+974,1377,2023-12-21,South,Tablet,Bob,5,"display, battery",2,False,none,simple_component_agent,19574.54208110977,78298.16832443907,Returning
+975,1999,2023-12-22,East,Headphones,Alice,7,speaker,1,False,none,simple_component_agent,1989.3742637500086,13925.61984625006,Returning
+976,1541,2023-12-23,East,Monitor,Frank,8,"panel, stand, cable",3,False,none,general_component_agent,16063.64217960654,128509.13743685232,New
+977,1699,2023-12-23,South,Mobile,Eva,10,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29040.026316359355,290400.26316359354,New
+978,1482,2023-12-23,South,Headphones,Charlie,8,speaker,1,False,none,simple_component_agent,2147.8598739248687,17182.87899139895,New
+979,1686,2023-12-24,North,Monitor,Bob,7,"panel, stand, cable",3,False,none,general_component_agent,13764.403292930074,96350.82305051052,Returning
+980,1746,2023-12-24,West,Tablet,Eva,4,"display, battery",2,False,none,simple_component_agent,21107.193748834525,67543.01999627048,Returning
+981,1132,2023-12-25,South,Headphones,Alice,4,speaker,1,False,none,simple_component_agent,2139.019053221895,8556.07621288758,Returning
+982,1181,2023-12-25,West,Headphones,Frank,4,speaker,1,False,none,simple_component_agent,1872.7270611349356,7490.908244539743,New
+983,1359,2023-12-26,East,Headphones,David,5,speaker,1,False,none,simple_component_agent,1972.1386129488803,9860.693064744402,New
+984,1252,2023-12-26,South,Headphones,Alice,6,speaker,1,False,none,simple_component_agent,1866.1999098654624,11197.199459192774,Returning
+985,1122,2023-12-26,North,Monitor,Alice,4,"panel, stand, cable",3,False,none,general_component_agent,15619.812386982654,62479.249547930616,New
+986,1063,2023-12-26,North,Monitor,Alice,2,"panel, stand, cable",3,False,none,general_component_agent,15106.04330418497,30212.08660836994,New
+987,1014,2023-12-26,West,Laptop,Frank,6,"processor, ram, ssd, battery",4,False,none,general_component_agent,71894.5268539165,431367.161123499,Returning
+988,1830,2023-12-26,West,Mobile,Eva,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,28178.92180173727,253610.29621563543,Returning
+989,1648,2023-12-27,East,Tablet,Charlie,5,"display, battery",2,False,none,simple_component_agent,18846.98344820968,75387.93379283872,New
+990,1559,2023-12-27,North,Laptop,Alice,7,"processor, ram, ssd, battery",4,False,none,general_component_agent,63580.96255713869,445066.73789997085,Returning
+991,1899,2023-12-29,East,Headphones,Bob,6,speaker,1,False,none,simple_component_agent,1928.827014078292,11572.962084469753,New
+992,1631,2023-12-30,East,Headphones,Alice,2,speaker,1,False,none,simple_component_agent,2023.89786453347,4047.79572906694,Returning
+993,1038,2023-12-30,North,Tablet,Charlie,4,"display, battery",2,False,none,simple_component_agent,21431.739655989313,68581.5668991658,Returning
+994,1941,2023-12-31,South,Mobile,Charlie,10,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31001.564684752087,310015.6468475209,Returning
+995,1720,2023-12-31,West,Mobile,Bob,9,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,29612.37794039851,266511.4014635866,New
+996,1619,2023-12-31,North,Laptop,Charlie,8,"processor, ram, ssd, battery",4,False,none,general_component_agent,76343.68160151795,610749.4528121436,New
+997,1313,2023-12-31,North,Mobile,David,11,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,31315.471203454996,344470.183238005,Returning
+998,1420,2023-12-31,East,Headphones,Eva,3,speaker,1,False,none,simple_component_agent,2172.0660811450202,6516.198243435061,Returning
+999,1890,2023-12-31,North,Mobile,Frank,10,"display, battery, camera, chipset, body",5,True,rising,trend_analyzer,30165.527839632996,301655.27839632996,Returning
