@@ -1,0 +1,59 @@
+{
+  "requirements": {
+    "acceptance_criteria": [
+      "The API rejects any request from a single client that exceeds 100 requests within a 1-minute timeframe.",
+      "The API returns a clear error response with HTTP status code 429 (Too Many Requests) when the rate limit is exceeded.",
+      "The error response includes a message indicating that the rate limit has been exceeded and the maximum limit of 100 requests per minute.",
+      "The rate limiting is applied per IP address of the client making the requests."
+    ],
+    "open_questions": [
+      "How should rate limiting be enforced for clients behind a proxy or a load balancer?",
+      "What should the response message for the rate limit exceeded error include?",
+      "Will there be a way to notify clients (e.g., in headers) about how many requests they have left in the current window?"
+    ]
+  },
+  "tests": {
+    "test_cases": [
+      {
+        "id": "TC01",
+        "title": "Test API response within rate limit",
+        "type": "happy",
+        "expected": "HTTP status code 200 with a successful response when 100 requests are made within 1 minute without exceeding the limit."
+      },
+      {
+        "id": "TC02",
+        "title": "Test API response when rate limit is exceeded",
+        "type": "negative",
+        "expected": "HTTP status code 429 with an error message indicating rate limit exceeded and a maximum limit of 100 requests per minute."
+      },
+      {
+        "id": "TC03",
+        "title": "Test API response exactly at rate limit threshold",
+        "type": "edge",
+        "expected": "HTTP status code 200 with a successful response when exactly 100 requests are made within 1 minute, and the next request receives HTTP status code 429."
+      }
+    ]
+  },
+  "implementation": {
+    "code": "from flask import Flask, request, jsonify\nfrom collections import defaultdict\nfrom time import time\n\napp = Flask(__name__)\n\nrequests_count = defaultdict(lambda: [])\nRATE_LIMIT = 100\nTIME_FRAME = 60\n\n@app.route('/api', methods=['GET'])\ndef api_endpoint():\n    client_ip = request.remote_addr\n    current_time = time()\n    \n    # Purge old timestamps\n    requests_count[client_ip] = [t for t in requests_count[client_ip] if current_time - t < TIME_FRAME]\n\n    if len(requests_count[client_ip]) >= RATE_LIMIT:\n        return jsonify({'error': 'Rate limit exceeded. Maximum 100 requests per minute.'}), 429\n\n    requests_count[client_ip].append(current_time)\n    return jsonify({'message': 'Request successful!'})\n\nif __name__ == '__main__':\n    app.run(debug=True)",
+    "notes": "Used a defaultdict to count requests per IP and enforced a time-frame check."
+  },
+  "review": {
+    "findings": [
+      {
+        "severity": "high",
+        "note": "Race condition: the read-then-append on requests_count[client_ip] is not thread-safe. Under concurrent requests from the same client, two threads can both pass the length check before either appends, letting the client exceed the rate limit."
+      },
+      {
+        "severity": "medium",
+        "note": "No cleanup of stale client_ip entries — the dict grows unbounded over time, since keys are never removed once a client goes idle."
+      },
+      {
+        "severity": "low",
+        "note": "app.run(debug=True) should not ship to production — Flask's debugger exposes a remote code execution surface if it ever reaches a public endpoint."
+      }
+    ],
+    "risk_level": "high",
+    "risk_reason": "Concurrent requests can bypass the rate limit due to a check-then-act race condition."
+  }
+}
