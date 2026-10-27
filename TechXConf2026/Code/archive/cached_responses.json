@@ -1,0 +1,73 @@
+{
+  "simple_customer_view:extract": {
+    "result": {
+      "target_table": "analytics.customer_profile",
+      "source_tables": [
+        {"name": "raw.crm_accounts", "layer": "raw"}
+      ],
+      "transformations": [
+        {"output_column": "account_id", "logic": "passthrough from crm_accounts.account_id", "type": "passthrough"},
+        {"output_column": "full_name", "logic": "passthrough from crm_accounts.full_name", "type": "passthrough"},
+        {"output_column": "email", "logic": "passthrough from crm_accounts.email", "type": "passthrough"},
+        {"output_column": "signup_date", "logic": "passthrough from crm_accounts.signup_date", "type": "passthrough"},
+        {"output_column": "plan_tier", "logic": "passthrough from crm_accounts.plan_tier", "type": "passthrough"},
+        {"output_column": "billing_country", "logic": "passthrough from crm_accounts.billing_country", "type": "passthrough"}
+      ],
+      "pii_risk_columns": ["full_name", "email"],
+      "confidence": 0.98,
+      "uncertainty_note": ""
+    },
+    "usage": {"in": 850, "out": 220}
+  },
+  "daily_revenue_rollup:extract": {
+    "result": {
+      "target_table": "warehouse.daily_revenue_rollup",
+      "source_tables": [
+        {"name": "raw.billing_subscriptions", "layer": "raw"},
+        {"name": "raw.crm_accounts", "layer": "raw"}
+      ],
+      "transformations": [
+        {"output_column": "amount_usd", "logic": "monthly_amount converted to USD via fx_rate_to_usd when currency is not USD", "type": "derived"},
+        {"output_column": "paying_accounts", "logic": "count of distinct account_id per billing_date/plan_tier/billing_country", "type": "aggregate"},
+        {"output_column": "revenue_usd", "logic": "sum of amount_usd", "type": "aggregate"},
+        {"output_column": "avg_revenue_per_account", "logic": "average of amount_usd", "type": "aggregate"},
+        {"output_column": "plan_tier", "logic": "passthrough from crm_accounts.plan_tier", "type": "passthrough"},
+        {"output_column": "billing_country", "logic": "passthrough from crm_accounts.billing_country", "type": "passthrough"}
+      ],
+      "pii_risk_columns": ["billing_country"],
+      "confidence": 0.88,
+      "uncertainty_note": ""
+    },
+    "usage": {"in": 1900, "out": 430}
+  },
+  "customer_churn_features:extract": {
+    "result": {
+      "target_table": "analytics.customer_churn_features",
+      "source_tables": [
+        {"name": "raw.crm_accounts", "layer": "raw"},
+        {"name": "raw.billing_subscriptions", "layer": "raw"},
+        {"name": "raw.billing_plans", "layer": "raw"},
+        {"name": "raw.support_tickets", "layer": "raw"},
+        {"name": "enriched.ticket_sentiment", "layer": "reference"},
+        {"name": "warehouse.daily_product_usage", "layer": "warehouse"}
+      ],
+      "transformations": [
+        {"output_column": "account_age_days", "logic": "days between signup_date and current_date", "type": "derived"},
+        {"output_column": "total_subscriptions", "logic": "count of distinct subscription_id per account, from subscription_history", "type": "aggregate"},
+        {"output_column": "lifetime_value", "logic": "sum of monthly_amount per account, from subscription_history", "type": "aggregate"},
+        {"output_column": "avg_subscription_days", "logic": "average subscription duration in days", "type": "aggregate"},
+        {"output_column": "ticket_count_90d", "logic": "count of support tickets in the last 90 days", "type": "aggregate"},
+        {"output_column": "critical_tickets", "logic": "count of P1 priority tickets", "type": "aggregate"},
+        {"output_column": "worst_sentiment", "logic": "max sentiment_score joined from ticket_sentiment", "type": "aggregate"},
+        {"output_column": "sessions_30d", "logic": "sum of session_count in the last 30 days", "type": "aggregate"},
+        {"output_column": "active_days_30d", "logic": "count of distinct active_date in the last 30 days", "type": "aggregate"},
+        {"output_column": "events_per_active_day", "logic": "feature_events_30d divided by active_days_30d, 0 when no active days", "type": "derived"},
+        {"output_column": "churn_label", "logic": "boolean, negation of is_active", "type": "label"}
+      ],
+      "pii_risk_columns": [],
+      "confidence": 0.62,
+      "uncertainty_note": "enriched.ticket_sentiment feeds this pipeline through support_signals but isn't referenced in any lineage doc I could check against — worth confirming this join is intentional and the table is still an active upstream, not a deprecated one still being read."
+    },
+    "usage": {"in": 3400, "out": 760}
+  }
+}

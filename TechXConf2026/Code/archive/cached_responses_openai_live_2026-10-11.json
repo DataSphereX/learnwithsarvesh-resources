@@ -1,0 +1,225 @@
+{
+  "simple_customer_view:extract": {
+    "result": {
+      "target_table": "analytics.customer_profile",
+      "source_tables": [
+        {
+          "name": "raw.crm_accounts",
+          "layer": "raw"
+        }
+      ],
+      "transformations": [
+        {
+          "output_column": "account_id",
+          "logic": "selected from raw.crm_accounts",
+          "type": "passthrough"
+        },
+        {
+          "output_column": "full_name",
+          "logic": "selected from raw.crm_accounts",
+          "type": "passthrough"
+        },
+        {
+          "output_column": "email",
+          "logic": "selected from raw.crm_accounts",
+          "type": "passthrough"
+        },
+        {
+          "output_column": "signup_date",
+          "logic": "selected from raw.crm_accounts",
+          "type": "passthrough"
+        },
+        {
+          "output_column": "plan_tier",
+          "logic": "selected from raw.crm_accounts",
+          "type": "passthrough"
+        },
+        {
+          "output_column": "billing_country",
+          "logic": "selected from raw.crm_accounts",
+          "type": "passthrough"
+        }
+      ],
+      "pii_risk_columns": [
+        "full_name",
+        "email"
+      ],
+      "confidence": 0.85,
+      "uncertainty_note": ""
+    },
+    "usage": {
+      "in": 185,
+      "out": 283
+    }
+  },
+  "daily_revenue_rollup:extract": {
+    "result": {
+      "target_table": "warehouse.daily_revenue_rollup",
+      "source_tables": [
+        {
+          "name": "raw.billing_subscriptions",
+          "layer": "raw"
+        },
+        {
+          "name": "raw.crm_accounts",
+          "layer": "raw"
+        }
+      ],
+      "transformations": [
+        {
+          "output_column": "billing_date",
+          "logic": "b.billing_date",
+          "type": "passthrough"
+        },
+        {
+          "output_column": "plan_tier",
+          "logic": "a.plan_tier",
+          "type": "passthrough"
+        },
+        {
+          "output_column": "billing_country",
+          "logic": "a.billing_country",
+          "type": "passthrough"
+        },
+        {
+          "output_column": "paying_accounts",
+          "logic": "COUNT(DISTINCT b.account_id)",
+          "type": "aggregate"
+        },
+        {
+          "output_column": "revenue_usd",
+          "logic": "SUM(b.amount_usd)",
+          "type": "aggregate"
+        },
+        {
+          "output_column": "avg_revenue_per_account",
+          "logic": "AVG(b.amount_usd)",
+          "type": "aggregate"
+        }
+      ],
+      "pii_risk_columns": [
+        "account_id"
+      ],
+      "confidence": 0.9,
+      "uncertainty_note": "Currency and status conditions are redacted."
+    },
+    "usage": {
+      "in": 338,
+      "out": 193
+    }
+  },
+  "customer_churn_features:extract": {
+    "result": {
+      "target_table": "analytics.customer_churn_features",
+      "source_tables": [
+        {
+          "name": "raw.crm_accounts",
+          "layer": "raw"
+        },
+        {
+          "name": "raw.billing_subscriptions",
+          "layer": "raw"
+        },
+        {
+          "name": "raw.billing_plans",
+          "layer": "raw"
+        },
+        {
+          "name": "raw.support_tickets",
+          "layer": "raw"
+        },
+        {
+          "name": "enriched.ticket_sentiment",
+          "layer": "staging"
+        },
+        {
+          "name": "warehouse.daily_product_usage",
+          "layer": "warehouse"
+        }
+      ],
+      "transformations": [
+        {
+          "output_column": "account_id",
+          "logic": "account_id from crm_accounts",
+          "type": "passthrough"
+        },
+        {
+          "output_column": "plan_tier",
+          "logic": "plan_tier from crm_accounts",
+          "type": "passthrough"
+        },
+        {
+          "output_column": "billing_country",
+          "logic": "billing_country from crm_accounts",
+          "type": "passthrough"
+        },
+        {
+          "output_column": "account_age_days",
+          "logic": "DATEDIFF(day, signup_date, CURRENT_DATE())",
+          "type": "derived"
+        },
+        {
+          "output_column": "total_subscriptions",
+          "logic": "COALESCE(total_subscriptions from billing_subscriptions, 0)",
+          "type": "aggregate"
+        },
+        {
+          "output_column": "lifetime_value",
+          "logic": "COALESCE(lifetime_value from billing_subscriptions, 0)",
+          "type": "aggregate"
+        },
+        {
+          "output_column": "avg_subscription_days",
+          "logic": "COALESCE(avg_subscription_days from billing_subscriptions, 0)",
+          "type": "aggregate"
+        },
+        {
+          "output_column": "ticket_count_90d",
+          "logic": "COALESCE(ticket_count_90d from support_tickets, 0)",
+          "type": "aggregate"
+        },
+        {
+          "output_column": "critical_tickets",
+          "logic": "COALESCE(critical_tickets from support_tickets, 0)",
+          "type": "aggregate"
+        },
+        {
+          "output_column": "worst_sentiment",
+          "logic": "COALESCE(worst_sentiment from ticket_sentiment, 0)",
+          "type": "aggregate"
+        },
+        {
+          "output_column": "sessions_30d",
+          "logic": "COALESCE(sessions_30d from daily_product_usage, 0)",
+          "type": "aggregate"
+        },
+        {
+          "output_column": "active_days_30d",
+          "logic": "COALESCE(active_days_30d from daily_product_usage, 0)",
+          "type": "aggregate"
+        },
+        {
+          "output_column": "events_per_active_day",
+          "logic": "feature_events_30d / active_days_30d (null/zero division safe)",
+          "type": "derived"
+        },
+        {
+          "output_column": "churn_label",
+          "logic": "NOT is_active from crm_accounts",
+          "type": "label"
+        }
+      ],
+      "pii_risk_columns": [
+        "account_id",
+        "billing_country",
+        "signup_date"
+      ],
+      "confidence": 0.9,
+      "uncertainty_note": ""
+    },
+    "usage": {
+      "in": 852,
+      "out": 630
+    }
+  }
+}
