@@ -1,0 +1,28 @@
+PowerShell setup (once per terminal):
+
+
+cd "D:\Mentoring\learwithsarvesh\Events-Talks\TechXConf\Code"
+$env:PYTHONIOENCODING = "utf-8"
+
+
+command to run on stage:
+cd "D:\Mentoring\learwithsarvesh\Events-Talks\TechXConf\Code"
+python -W ignore agentic_lineage_demo.py --offline --interactive
+
+
+To check the catalogs:
+.\catalog.json
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+Hints:
+CTE -> Common Table Expression: a named sub-query defined with WITH ... AS ( ... ),
+       used like a temporary table inside one query.
+
+
+Type		Means
+----		-----
+passthrough	copied as-is, no computation
+aggregate	computed via SUM/COUNT/AVG/etc. over rows
+derived		computed via some expression/formula
+label		a computed boolean/categorical flag
