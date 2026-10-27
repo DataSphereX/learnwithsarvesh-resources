@@ -1,20 +1,34 @@
 # TechXConf 2026 - Agentic Data Lineage Demo
 
-This folder contains the presentation material and runnable code for the
-TechXConf 2026 demonstration **Agentic Data Lineage Pipeline**.
+Thank you for attending my session at **TechXConf 2026**! This folder contains
+the slides and the full runnable code for the **Agentic Data Lineage
+Pipeline** demo, so you can try it yourself and build on it.
+
+- **Slides:** [Sarveshwaran-Meet-Chintu-TechXConf-2026.pdf](Sarveshwaran-Meet-Chintu-TechXConf-2026.pdf)
+- **Code:** [Code/](Code/)
+- **Speaker:** Sarveshwaran, *Learn with Sarvesh*
+
+## What the demo does
 
 The demo shows how an agentic workflow can inspect SQL pipelines, identify
 source-to-target lineage, classify transformations, detect potential PII,
 route work to an appropriate model tier, validate the result, and write a
 reviewable metadata record to a catalog.
 
-The workflow is intentionally designed for a live technical presentation:
+Key ideas you saw in the talk:
 
-- It can run completely offline using cached model responses.
-- It scrubs SQL before sending content to a model.
-- It uses small, medium, and large model tiers based on pipeline complexity.
-- It pauses for a human decision when confidence is below the commit threshold.
-- It records the result and estimated token cost in `catalog.json`.
+- **Scrubbing first** - SQL literals and credential-like values are removed
+  before anything is sent to a model.
+- **Cost-aware routing** - small, mid, and large model tiers are chosen based
+  on pipeline complexity.
+- **Validation** - a second agent checks the extracted lineage and assigns a
+  confidence score.
+- **Human in the loop** - the workflow pauses for a human decision only when
+  confidence is below the commit threshold.
+- **Auditable output** - every result, with its estimated token cost, is
+  recorded in `catalog.json`.
+- **Works offline** - cached model responses let you run the whole demo
+  without an API key or network access.
 
 ## Contents
 
@@ -35,10 +49,6 @@ TechXConf2026/
         |-- daily_revenue_rollup.sql
         `-- customer_churn_features.sql
 ```
-
-### Presentation
-
-`Sarveshwaran-Meet-Chintu-TechXConf-2026.pdf` contains the talk slides.
 
 ### Demo application
 
@@ -62,17 +72,15 @@ The three SQL files deliberately represent increasing levels of complexity:
 - `catalog.json` — the generated lineage catalog containing source tables,
   transformations, PII-risk columns, confidence, model tier, and estimated
   cost.
-- `cached_responses.json` — responses used by offline mode, so the demo does
-  not need network access or an API key on stage.
+- `cached_responses.json` — responses used by offline mode, so the demo runs
+  without network access or an API key.
 - `archive/` — earlier cached responses and catalog snapshots retained for
   reference.
-- `agentic_lineage_README.md.docx` — the original longer document version of
-  the demo notes.
-- `commands to run.txt` — a compact rehearsal reference for Windows PowerShell.
+- `agentic_lineage_README.md.docx` — a longer document version of the demo
+  notes.
+- `commands to run.txt` — a compact command reference.
 
 ## How the workflow works
-
-The code implements the following flow:
 
 ```text
 SQL files
@@ -96,9 +104,9 @@ Conditional human gate
 Metadata catalog
 ```
 
-The output is intended to be metadata, not a replacement for a SQL
-execution engine. The SQL files are examples for lineage extraction and are
-not executed by the Python demo.
+The output is metadata, not a replacement for a SQL execution engine. The SQL
+files are examples for lineage extraction and are not executed by the Python
+demo.
 
 ## Requirements
 
@@ -107,15 +115,20 @@ not executed by the Python demo.
   - `langgraph`
   - `openai`
   - `python-dotenv`
-- An OpenAI API key only for live mode
+- An OpenAI API key, **only** for live mode
 
-## Setup on Windows
+## Setup
 
-Open PowerShell and run:
+First, clone the repository:
+
+```bash
+git clone https://github.com/DataSphereX/learnwithsarvesh-resources.git
+cd learnwithsarvesh-resources/TechXConf2026/Code
+```
+
+### Windows (PowerShell)
 
 ```powershell
-cd "D:\Mentoring\learwithsarvesh\git_repos_public\learnwithsarvesh-resources\TechXConf2026\Code"
-
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
@@ -130,31 +143,37 @@ current user or invoke the environment's Python executable directly:
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
+### macOS / Linux
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
 ## Run the demo
 
-### Offline rehearsal (recommended)
+### Offline mode (start here)
 
-Offline mode uses `cached_responses.json` and does not make API calls:
+Offline mode uses `cached_responses.json` and makes no API calls, so you don't
+need an API key:
 
-```powershell
+```bash
 python agentic_lineage_demo.py --offline
 ```
 
-For a rehearsal that exercises the approval prompt:
+To be asked for approval at the human gate (this is the run from the talk):
 
-```powershell
+```bash
 python agentic_lineage_demo.py --offline --interactive
 ```
 
-To rehearse rejecting the human-gate decision:
+To see what happens when the human gate rejects a result:
 
-```powershell
+```bash
 python agentic_lineage_demo.py --offline --reject
 ```
-
-Run the offline scenarios before the presentation. This verifies that the
-environment, cache, terminal encoding, and human-gate behavior are ready
-without depending on network connectivity.
 
 ### Live mode
 
@@ -165,14 +184,21 @@ next to `agentic_lineage_demo.py`:
 OPENAI_API_KEY=replace_with_your_key
 ```
 
+Run the readiness check first. It validates the API key and makes a small
+request for each configured model tier:
+
+```bash
+python agentic_lineage_demo.py --check
+```
+
 Then run:
 
-```powershell
+```bash
 python agentic_lineage_demo.py
 ```
 
-The script uses these model settings, each of which can be overridden with an
-environment variable:
+Live requests may incur provider charges. The script uses these model
+settings, each of which can be overridden with an environment variable:
 
 | Tier | Default model | Environment variable |
 |---|---|---|
@@ -180,27 +206,17 @@ environment variable:
 | Mid | `gpt-4o` | `OPENAI_MODEL_MID` |
 | Large | `gpt-4.1` | `OPENAI_MODEL_LARGE` |
 
-Use the readiness check before attempting a live run:
-
-```powershell
-python agentic_lineage_demo.py --check
-```
-
-The check validates the API key and makes a small request for each configured
-model tier. Live requests may incur provider charges.
-
 ## Command-line options
 
 | Option | Purpose |
 |---|---|
 | `--offline` | Replay responses from `cached_responses.json` without network access. |
 | `--interactive` | Ask for approval at the human gate instead of automatically accepting. |
-| `--reject` | Rehearse a rejection at the human gate. |
+| `--reject` | Simulate a rejection at the human gate. |
 | `--check` | Validate the environment and test each configured live model, then exit. |
 
-The options can be combined where appropriate. For example,
-`--offline --interactive` is useful for a no-network rehearsal of the
-approval flow.
+The options can be combined where appropriate, for example
+`--offline --interactive`.
 
 ## Understanding the catalog
 
@@ -208,8 +224,15 @@ Each catalog record describes one processed pipeline. Important fields include:
 
 - `source_tables` — upstream tables discovered in the SQL.
 - `transformations` — output columns and their logic.
-- `type` — transformation category such as `passthrough`, `aggregate`,
-  `derived`, or `label`.
+- `type` — transformation category:
+
+  | Type | Meaning |
+  |---|---|
+  | `passthrough` | Copied as-is, no computation |
+  | `aggregate` | Computed via `SUM`/`COUNT`/`AVG`/etc. over rows |
+  | `derived` | Computed via some expression or formula |
+  | `label` | A computed boolean or categorical flag |
+
 - `pii_risk_columns` — columns that may contain personally identifiable
   information or sensitive attributes.
 - `confidence` — validation confidence for the extracted lineage.
@@ -218,31 +241,38 @@ Each catalog record describes one processed pipeline. Important fields include:
 - `catalog_status` — whether the record was automatically committed or
   required human review.
 
-To inspect the catalog from PowerShell:
+> **Tip:** The SQL examples use CTEs (Common Table Expressions) — named
+> sub-queries defined with `WITH ... AS ( ... )` and used like a temporary
+> table inside one query.
 
-```powershell
-Get-Content .\catalog.json
-```
-
-To format it as structured JSON:
+To inspect the catalog, open `catalog.json` in any editor, or on Windows:
 
 ```powershell
 Get-Content .\catalog.json | ConvertFrom-Json | ConvertTo-Json -Depth 10
 ```
 
-## Rebuilding the offline cache
+On macOS / Linux:
 
-Offline mode is only as complete as the cache. If the SQL examples or prompts
-change, run one successful live execution to refresh the cached responses,
-then verify the offline path:
-
-```powershell
-python agentic_lineage_demo.py
-python agentic_lineage_demo.py --offline
+```bash
+python -m json.tool catalog.json
 ```
 
+## Try it with your own SQL
+
+The script processes the three files listed in the `files` list inside
+`main()` in `agentic_lineage_demo.py`. To try your own pipeline:
+
+1. Add your `.sql` file to `Code/pipelines/` (use synthetic or approved
+   sample SQL only).
+2. Add or swap its path in the `files` list in `agentic_lineage_demo.py`.
+3. Run in live mode, since the offline cache only covers the three examples.
+4. Inspect the new record in `catalog.json`.
+
+Live runs save model responses to `cached_responses.json`, so you can replay
+your pipeline with `--offline` afterwards.
+
 Do not place API keys in `cached_responses.json`, `catalog.json`, source code,
-or committed documentation. Keep `.env` local and untracked.
+or committed files. Keep `.env` local and untracked.
 
 ## Troubleshooting
 
@@ -250,31 +280,37 @@ or committed documentation. Keep `.env` local and untracked.
 
 Activate the virtual environment and install the requirements:
 
-```powershell
+```bash
 python -m pip install -r requirements.txt
 ```
 
 ### `OPENAI_API_KEY not set`
 
-Use offline mode for a presentation:
+Use offline mode, which needs no key:
 
-```powershell
+```bash
 python agentic_lineage_demo.py --offline
 ```
 
-For live mode, set the key in the current PowerShell session:
+For live mode, set the key in your current terminal session:
 
 ```powershell
+# Windows PowerShell
 $env:OPENAI_API_KEY = "replace_with_your_key"
+```
+
+```bash
+# macOS / Linux
+export OPENAI_API_KEY="replace_with_your_key"
 ```
 
 ### Offline cache entry is missing
 
-The cache must contain an entry for each demo pipeline. Run a live execution
-once to rebuild it, or restore the known-good `cached_responses.json` supplied
-with this folder.
+The cache must contain an entry for each pipeline. Run a live execution once
+to rebuild it, or restore the original `cached_responses.json` from the
+repository.
 
-### Garbled symbols in the terminal
+### Garbled symbols in the Windows terminal
 
 Set UTF-8 output encoding before running:
 
@@ -287,7 +323,7 @@ $env:PYTHONIOENCODING = "utf-8"
 Use `--interactive`, and confirm that the selected scenario produces a
 low-confidence validation result:
 
-```powershell
+```bash
 python agentic_lineage_demo.py --offline --interactive
 ```
 
@@ -295,22 +331,21 @@ python agentic_lineage_demo.py --offline --interactive
 
 - Never commit real API keys, `.env` files, customer data, or production
   credentials.
-- Use synthetic or approved sample SQL for demonstrations.
+- Use synthetic or approved sample SQL.
 - Treat model-generated lineage as an assisted result that requires validation.
 - Review PII flags and low-confidence records before publishing metadata.
 - Confirm model names and pricing before using live mode in a production
   workflow; the prices in the script are illustrative defaults.
-- Offline mode is the safest choice for a stage demonstration because it
-  avoids network calls, unexpected provider responses, and API charges.
 
-## Suggested presentation flow
+## Taking it further
 
-1. Introduce the problem: lineage extraction is repetitive and difficult to
-   keep current.
-2. Show the three SQL examples and their increasing complexity.
-3. Run `python agentic_lineage_demo.py --offline`.
-4. Point out the scrubber, model-tier routing, validation, and cost output.
-5. Run `python agentic_lineage_demo.py --offline --interactive`.
-6. Approve or reject the low-confidence result and inspect `catalog.json`.
-7. Discuss where human review, data governance, and production controls would
-   be required.
+Ideas to explore after the session:
+
+- Where would human review, data governance, and production controls sit in
+  your own data platform?
+- How would you tune the complexity router and confidence threshold for your
+  pipelines?
+- Could the catalog output feed an existing metadata tool in your organisation?
+
+Questions or feedback? Reach out via *Learn with Sarvesh* — I'd love to hear
+what you build with this.

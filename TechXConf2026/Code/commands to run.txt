@@ -1,17 +1,17 @@
-PowerShell setup (once per terminal):
+Setup (once per terminal), from the repository root:
 
+cd TechXConf2026/Code
 
-cd "D:\Mentoring\learwithsarvesh\Events-Talks\TechXConf\Code"
+Windows PowerShell only:
 $env:PYTHONIOENCODING = "utf-8"
 
 
-command to run on stage:
-cd "D:\Mentoring\learwithsarvesh\Events-Talks\TechXConf\Code"
+Command used in the live demo:
 python -W ignore agentic_lineage_demo.py --offline --interactive
 
 
-To check the catalogs:
-.\catalog.json
+To check the catalog:
+open catalog.json in any editor
 
 ------------------------------------------------------------------------
 ------------------------------------------------------------------------
