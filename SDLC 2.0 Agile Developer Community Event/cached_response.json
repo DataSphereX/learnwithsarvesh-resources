@@ -1,0 +1,169 @@
+{
+  "lineage": {
+    "target_table": "analytics.customer_churn_features",
+    "source_tables": [
+      {
+        "name": "raw.crm_accounts",
+        "layer": "raw",
+        "columns_used": [
+          "account_id",
+          "signup_date",
+          "plan_tier",
+          "billing_country",
+          "is_active"
+        ],
+        "join_type": "base"
+      },
+      {
+        "name": "raw.billing_subscriptions",
+        "layer": "raw",
+        "columns_used": [
+          "account_id",
+          "subscription_id",
+          "monthly_amount",
+          "renewal_date",
+          "start_date",
+          "end_date"
+        ],
+        "join_type": "inner"
+      },
+      {
+        "name": "raw.billing_plans",
+        "layer": "raw",
+        "columns_used": [
+          "plan_id"
+        ],
+        "join_type": "inner"
+      },
+      {
+        "name": "raw.support_tickets",
+        "layer": "raw",
+        "columns_used": [
+          "account_id",
+          "ticket_id",
+          "priority",
+          "resolution_hours",
+          "created_at"
+        ],
+        "join_type": "left"
+      },
+      {
+        "name": "enriched.ticket_sentiment",
+        "layer": "enriched",
+        "columns_used": [
+          "ticket_id",
+          "sentiment_score"
+        ],
+        "join_type": "left"
+      },
+      {
+        "name": "warehouse.daily_product_usage",
+        "layer": "warehouse",
+        "columns_used": [
+          "account_id",
+          "session_count",
+          "feature_events",
+          "active_date"
+        ],
+        "join_type": "inner"
+      }
+    ],
+    "transformations": [
+      {
+        "output_column": "account_id",
+        "logic": "Passed through unchanged from the accounts CTE",
+        "depends_on": ["raw.crm_accounts.account_id"],
+        "type": "passthrough"
+      },
+      {
+        "output_column": "plan_tier",
+        "logic": "Passed through unchanged from the accounts CTE",
+        "depends_on": ["raw.crm_accounts.plan_tier"],
+        "type": "passthrough"
+      },
+      {
+        "output_column": "billing_country",
+        "logic": "Passed through unchanged from the accounts CTE",
+        "depends_on": ["raw.crm_accounts.billing_country"],
+        "type": "passthrough"
+      },
+      {
+        "output_column": "account_age_days",
+        "logic": "Days elapsed since signup, computed against the current date",
+        "depends_on": ["raw.crm_accounts.signup_date"],
+        "type": "derived"
+      },
+      {
+        "output_column": "total_subscriptions",
+        "logic": "Distinct subscription count per account, zero-filled if the account has none",
+        "depends_on": ["raw.billing_subscriptions.subscription_id"],
+        "type": "aggregate"
+      },
+      {
+        "output_column": "lifetime_value",
+        "logic": "Sum of monthly subscription amounts per account, zero-filled if none",
+        "depends_on": ["raw.billing_subscriptions.monthly_amount"],
+        "type": "aggregate"
+      },
+      {
+        "output_column": "avg_subscription_days",
+        "logic": "Average subscription duration in days across the account's subscriptions",
+        "depends_on": ["raw.billing_subscriptions.start_date", "raw.billing_subscriptions.end_date"],
+        "type": "aggregate"
+      },
+      {
+        "output_column": "ticket_count_90d",
+        "logic": "Count of support tickets opened in the trailing 90 days",
+        "depends_on": ["raw.support_tickets.ticket_id"],
+        "type": "aggregate"
+      },
+      {
+        "output_column": "critical_tickets",
+        "logic": "Count of P1-priority tickets in the trailing 90 days",
+        "depends_on": ["raw.support_tickets.priority"],
+        "type": "aggregate"
+      },
+      {
+        "output_column": "worst_sentiment",
+        "logic": "Maximum sentiment score across the account's enriched tickets",
+        "depends_on": ["enriched.ticket_sentiment.sentiment_score"],
+        "type": "aggregate"
+      },
+      {
+        "output_column": "sessions_30d",
+        "logic": "Total product sessions in the trailing 30 days",
+        "depends_on": ["warehouse.daily_product_usage.session_count"],
+        "type": "aggregate"
+      },
+      {
+        "output_column": "active_days_30d",
+        "logic": "Distinct days the account was active in the trailing 30 days",
+        "depends_on": ["warehouse.daily_product_usage.active_date"],
+        "type": "aggregate"
+      },
+      {
+        "output_column": "events_per_active_day",
+        "logic": "Feature events divided by active days, guarded against divide-by-zero",
+        "depends_on": ["warehouse.daily_product_usage.feature_events", "warehouse.daily_product_usage.active_date"],
+        "type": "derived"
+      },
+      {
+        "output_column": "churn_label",
+        "logic": "Negation of the CRM is_active flag, used as the supervised training target",
+        "depends_on": ["raw.crm_accounts.is_active"],
+        "type": "label"
+      }
+    ],
+    "pii_risk_columns": [
+      "account_id",
+      "billing_country",
+      "worst_sentiment"
+    ],
+    "downstream_impact_note": "Any schema change to raw.crm_accounts or a delay in warehouse.daily_product_usage silently degrades the churn model's features, because every LEFT JOIN zero-fills missing values rather than failing loudly."
+  },
+  "usage": {
+    "input_tokens": 969,
+    "output_tokens": 528,
+    "elapsed_seconds": 7.02
+  }
+}
